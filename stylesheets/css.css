@@ -204,8 +204,15 @@ body{
 	height: 100%;
 	/*background: grey;*/
 }
-.container .for-show{
-	display: none;
+.typing{
+	position: relative;
+	margin-top: 60px;
+	margin-left: 150px;
+	font-size: 24px;
+	width: 700px;
+	word-break: break-all;
+	color: grey;
+	line-height: 33px;
 }
 
 
