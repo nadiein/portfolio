@@ -207,9 +207,9 @@ body{
 .typing{
 	position: relative;
 	margin-top: 60px;
-	margin-left: 150px;
+	margin-left: 20%;
 	font-size: 24px;
-	width: 700px;
+	width: 72%;
 	word-break: break-all;
 	color: grey;
 	line-height: 33px;
@@ -217,7 +217,7 @@ body{
 .social-contacts{
 	position:absolute;
 	top: 250px;
-	right: 450px;
+	left: 50%;
 	width: 290px;
 	text-indent: 12px;
 	font-size: 41px;
