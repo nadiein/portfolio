@@ -210,7 +210,6 @@ body{
 	margin-left: 20%;
 	font-size: 24px;
 	width: 72%;
-	word-break: break-all;
 	color: grey;
 	line-height: 33px;
 }
@@ -264,5 +263,8 @@ footer span{
 footer span i{
 	text-decoration: underline;
 	font-style: italic;
+}
+@media all and (max-width: 900px){
+	.social-contacts{left: 55%;}
 }
 
