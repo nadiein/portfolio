@@ -45,40 +45,6 @@ body{
 	color: grey;
 	line-height: 33px;
 }
-.social-contacts{
-	position:absolute;
-	top: 250px;
-	left: 50%;
-	width: 290px;
-	text-indent: 12px;
-	font-size: 41px;
-	border-top: 1px solid grey;
-	border-bottom: 1px solid grey;
-	line-height: 100px;
-}
-.social-contacts:hover{
-	border-top: 1px dashed grey;
-	border-bottom: 1px dashed grey;
-}
-.social-contacts a i{
-	padding-right: 10px;
-	color: rgb(100, 100, 100);
-}
-.social-contacts .fa-twitter{
-	padding-right: 0;
-}
-.social-contacts .fa-linkedin-square:hover{
-	color: rgb(40, 90, 255);
-}
-.social-contacts .fa-github:hover{
-	color: rgb(200, 15, 0);
-}
-.social-contacts .fa-facebook-square:hover{
-	color: rgb(40, 65, 145);
-}
-.social-contacts .fa-twitter:hover{
-	color: rgb(30, 140, 255);
-}
 
 
 footer{
