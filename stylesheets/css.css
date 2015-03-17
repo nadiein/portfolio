@@ -62,7 +62,4 @@ footer span i{
 	text-decoration: underline;
 	font-style: italic;
 }
-@media all and (max-width: 900px){
-	.social-contacts{left: 55%; top: 290px;}
-}
 
