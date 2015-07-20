@@ -1,0 +1,8 @@
+.widget-slider{top:-16px;position:relative;}
+.widget-slider:after{display:block;clear:both;content:'';}
+.widget-slider-show{float:left;width:1229px;position:relative;}
+.widget-slider-wrap{position:relative;left:0;top:0;width:4916px;}
+.widget-slider-img{width:1120px;float:left;overflow:hidden;}
+.widget-slider-nav{float:left;}
+.widget-slider-nav li{position:relative;top:715px;left:555px;display:inline-block;margin-right:5px;width:25px;height:7px;background-color:white;border:1px solid white;z-index:999;}
+.widget-slider-pointer{content:'';position:absolute;margin-left:250px;margin-top:25px;border-left:20px solid orange;z-index:1;}
