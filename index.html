@@ -1,33 +1,340 @@
 <!doctype html>
 <html>
 <head>
-	<title>Portfolio</title>
+	<title>IN Portfolio</title>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width">
-	<link href="stylesheets/css_reset.css" rel="stylesheet" type="text/css">
-	<link href="stylesheets/css.css" rel="stylesheet" type="text/css">
+
+	<!--Styles-->
+	<link href="css/css_reset.css" rel="stylesheet" type="text/css">
+	<link href="css/css.css" rel="stylesheet" type="text/css">
+
+	<!--Fonts and the iconic font-->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!--This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer-->
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+		<!--[if (lte IE 8)]>
+			<script src="js/html5.js"></script>
+		<![endif]-->
+		
 </head>
 <body>
-	<div class="wrapper">
-		<div class="container">
-			<div class="for-show resume-for-show">
-				<h1 class="typing">Soon it will work. At this moment my GitPages on reconstruction. You can get acquainted with my CV just by clicking 'Download my CV'. Thank you and have a nice day.</h1>
-			</div>
-			<div class="for-show portfolio-for-show">
-				
-			</div>
-			<div class="for-show blog-for-show">
-				
-			</div>
-			<div class="for-show contact-for-show">
-				
+	<!--Preloader-->
+	<div id="loading">
+		<div id="loading-center">
+			<div id="loading-center-absolute">
+				<div class="object" id="first_object"></div>
+				<div class="object" id="second_object" style="float:right;"></div>
 			</div>
 		</div>
-		<footer>
-		<span>Designed and made by &copy;<i>Igor-Nadiein</i> in 2015</span>
-		</footer>
 	</div>
-	<script type="text/javascript" src="javascripts/script.js"></script>
+	<!--Menu for mobile devices-->
+	<!-- <div class="mobile-menu">
+		<i class="fa fa-bars"></i>
+		<div class="dd-menu show-menu"></div>
+	</div> -->
+	<!--Main wrapper-->
+	<div class="wrapper">
+		<div class="vertical-header">
+			<div class="picture-wrapper-back"></div>
+			<div class="picture-wrapper">
+				<img src="img/my-photo.png" alt="My Photo">
+			</div>
+			<p class="photo-title">My name is Igor</p>
+			<div class="resume-download">
+				<p>Download my CV</p>
+				<a class="resume-download-rus" href="files/CV ver. 2.0 Rus.pdf">rus</a>
+				<a class="resume-download-eng" href="files/CV ver. 2.0 Eng.pdf">eng</a>
+			</div>
+			<div class="column column-resume">
+				<div class="active"></div>
+				<i class="fa fa-file-o"></i>
+				<p class="column-title">resume</p>
+			</div>
+			<div class="column column-portfolio">
+				<div class="active"></div>
+				<i class="fa fa-briefcase"></i>
+				<p class="column-title">portfolio</p>
+			</div>
+			<div class="column column-contact">
+				<div class="active"></div>
+				<i class="fa fa-envelope-o"></i>
+				<p class="column-title">contacts</p>
+			</div>
+			<div class="header-social-contacts">
+					<a href="https://ua.linkedin.com/pub/igor-nadein/6b/360/2a3/ru"><i class="fa fa-linkedin-square"></i></a>
+					<a href="http://sn00zzzy.github.io/-/"><i class="fa fa-github"></i></a>
+					<a href="https://www.facebook.com/snoozzzy"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/Igor_Nadein"><i class="fa fa-twitter"></i></a>
+				</div>
+		</div><!--End .vertical-header-->
+
+		<!--Main container-->
+		<div class="container">
+		<div class="hide-scroll">
+			<div class="for-show resume-for-show">
+				<canvas class="canvas" width="800" height="800">Your browser doesn't support canvas, upgrade your browser</canvas>
+				<span class="title">Experience</span>
+				<ul class="experience">
+					<li>Front-end developer(freelancer)</li>
+					<li>Better Life Technology Inc.</li>
+					<li>Clearlink</li>
+					<li>Pioneer Hi-Bred Inc.</li>
+					<li>Arla foods</li>
+				</ul>
+				<span class="title">Education</span>
+				<ul class="education">
+					<li>KNTUAC n.a. Petro Vasylenko</li>
+					<li>Web Junior NtSchool</li>
+					<li>Web Pro NtSchool</li>
+					<li>Maximizer Academy</li>
+				</ul>
+				<span class="title"></span>
+				<ul class="skills">
+					<!--  Item  -->
+  					<li data-name="HTML5 Skill" data-percent="100%"> <svg viewBox="-10 -10 220 220">
+    				<g fill="none" stroke-width="12" transform="translate(100,100)">
+      				<path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+      				<path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+      				<path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+      				<path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+      				<path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+      				<path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+    				</g>
+    				</svg> <svg viewBox="-10 -10 220 220">
+    				<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="630"></path>
+    				</svg> </li>
+  					<!--  Item  -->
+  					<li data-name="CSS3 Skill" data-percent="97%"> <svg viewBox="-10 -10 220 220">
+    				<g fill="none" stroke-width="12" transform="translate(100,100)">
+      				<path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+      				<path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+      				<path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+      				<path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+      				<path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+      				<path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+    				</g>
+    				</svg> <svg viewBox="-10 -10 220 220">
+    				<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="610"></path>
+    				</svg> </li>
+  					<!--  Item  -->
+  					<li data-name="JS Skill" data-percent="65%"> <svg viewBox="-10 -10 220 220">
+    				<g fill="none" stroke-width="12" transform="translate(100,100)">
+      				<path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+      				<path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+      				<path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+      				<path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+      				<path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+      				<path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+    				</g>
+    				</svg> <svg viewBox="-10 -10 220 220">
+    				<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="408"></path>
+  					</svg> </li>
+  					<!--  Item  -->
+  					<li data-name="jQuery Skill" data-percent="13%"> <svg viewBox="-10 -10 220 220">
+    				<g fill="none" stroke-width="12" transform="translate(100,100)">
+      				<path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+      				<path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+      				<path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+      				<path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+      				<path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+      				<path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+    				</g>
+    				</svg> <svg viewBox="-10 -10 220 220">
+    				<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="81"></path>
+    				</svg> </li>
+  					<!--  Item  -->
+  					<li data-name="Canvas" data-percent="71%"> <svg viewBox="-10 -10 220 220">
+    				<g fill="none" stroke-width="2" transform="translate(100,100)">
+      				<path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+      				<path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+      				<path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+      				<path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+      				<path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+      				<path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+    				</g>
+    				</svg> <svg viewBox="-10 -10 220 220">
+    				<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="446"></path>
+    				</svg> </li>
+  					<!--  Item  -->
+  					<li data-name="PHP Skill" data-percent="48%"> <svg viewBox="-10 -10 220 220">
+    				<g fill="none" stroke-width="6" transform="translate(100,100)">
+      				<path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#cl1)"/>
+      				<path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#cl2)"/>
+      				<path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#cl3)"/>
+      				<path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#cl4)"/>
+      				<path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#cl5)"/>
+      				<path d="M -86.6,-50 A 100,100 0 0,1 0,-100" stroke="url(#cl6)"/>
+    				</g>
+    				</svg> <svg viewBox="-10 -10 220 220">
+    				<path d="M200,100 C200,44.771525 155.228475,0 100,0 C44.771525,0 0,44.771525 0,100 C0,155.228475 44.771525,200 100,200 C155.228475,200 200,155.228475 200,100 Z" stroke-dashoffset="364"></path>
+    				</svg> </li>
+				</ul>
+				<!--  Defining Angle Gradient Colors  --> 
+				<svg width="0" height="0">
+				<defs>
+  					<linearGradient id="cl1" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+    					<stop stop-color="#618099"/>
+    					<stop offset="100%" stop-color="#8e6677"/>
+  					</linearGradient>
+  					<linearGradient id="cl2" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+    					<stop stop-color="#8e6677"/>
+    					<stop offset="100%" stop-color="#9b5e67"/>
+  					</linearGradient>
+  					<linearGradient id="cl3" gradientUnits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1">
+    					<stop stop-color="#9b5e67"/>
+    					<stop offset="100%" stop-color="#9c787a"/>
+  					</linearGradient>
+  					<linearGradient id="cl4" gradientUnits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0">
+    					<stop stop-color="#9c787a"/>
+    					<stop offset="100%" stop-color="#817a94"/>
+  					</linearGradient>
+  					<linearGradient id="cl5" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0">
+    					<stop stop-color="#817a94"/>
+    					<stop offset="100%" stop-color="#498a98"/>
+  					</linearGradient>
+  					<linearGradient id="cl6" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="1" y2="0">
+    					<stop stop-color="#498a98"/>
+    					<stop offset="100%" stop-color="#618099"/>
+  					</linearGradient>
+				</defs>
+				</svg>
+			</div><!--End .resume-for-show-->
+
+			<div class="for-show portfolio-for-show">
+				<form class="sort-list">
+					<input type="button" value="All">
+					<input type="button" value="HTML/CSS">
+					<input type="button" value="JavaScript">
+					<input type="button" value="Bootstrap">
+				</form>
+				<div class="container-items">
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/spakivnya/index.html">
+							<div class="bg-layout">
+								<h1>Spakivnya</h1>
+								<span>Example of markup by template</span>
+							</div>
+							<img src="portfolio-preview/item1.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/qcoders/index.html">
+							<div class="bg-layout">
+								<h1>InWeb24</h1>
+								<span>Example of markup by template</span>
+							</div>
+							<img src="portfolio-preview/item2.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/itera-research/index.html">
+							<div class="bg-layout">
+								<h1>Itera Research</h1>
+								<span>Example of markup by template</span>
+							</div>
+							<img src="portfolio-preview/item3.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/plarium/index.html">
+							<div class="bg-layout">
+								<h1>ui</h1>
+								<span>Example of markup by template</span>
+							</div>
+							<img src="portfolio-preview/item4.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/maximizer-two/index.html">
+							<div class="bg-layout">
+								<h1>Theportfolio</h1>
+								<span>Example of markup by template</span>
+							</div>
+							<img src="portfolio-preview/item5.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/threeze/index.html">
+							<div class="bg-layout">
+								<h1>Threeze</h1>
+								<span>Example of markup by template</span>
+							</div>
+							<img src="portfolio-preview/item6.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/maximizer-one/index.html">
+							<div class="bg-layout">
+								<h1>SomeCorp</h1>
+								<span>Example of markup by template</span>
+							</div>
+							<img src="portfolio-preview/item7.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/todo-app/index.html">
+							<div class="bg-layout">
+								<h1>ToDo application</h1>
+								<span>JavaScript</span>
+							</div>
+							<img src="portfolio-preview/item8.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/iphone-player/index.html">
+							<div class="bg-layout">
+								<h1>Iphone player</h1>
+								<span>Iphone with JS and CSS</span>
+							</div>
+							<img src="portfolio-preview/item9.png" alt="Item">
+						</a>
+					</div>
+					<div class="item-box shuffle" data-groups="['all', '', '']">
+						<a class="overlay" href="portfolio/freebie/index.html">
+							<div class="bg-layout">
+								<h1>Freebie</h1>
+								<span>Example of markup by template</span>
+							</div>
+							<img src="portfolio-preview/item10.png" alt="Item">
+						</a>
+					</div>
+				</div><!--End .container-items-->
+			</div><!--End .portfolio-for-show-->
+
+			<div class="for-show contact-for-show">
+				<div class="social-contacts">
+					<a href="https://ua.linkedin.com/pub/igor-nadein/6b/360/2a3/ru"><i class="fa fa-linkedin-square"></i></a>
+					<a href="http://sn00zzzy.github.io/-/"><i class="fa fa-github"></i></a>
+					<a href="https://www.facebook.com/snoozzzy"><i class="fa fa-facebook-square"></i></a>
+					<a href="https://twitter.com/Igor_Nadein"><i class="fa fa-twitter"></i></a>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d2563.6418592943546!2d36.32972411592118!3d50.01806757877674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!1i0!3e0!4m3!3m2!1d50.0190293!2d36.3298207!4m3!3m2!1d50.019498!2d36.3292735!5e0!3m2!1sru!2sua!4v1431091894900" width="800" height="600" frameborder="0" style="border:0"></iframe><!--Google Maps-->
+			</div><!--End .contact-for-show-->
+
+		</div><!--End hide-scroll-->
+		</div><!--End .container-->
+		<footer>
+			<span>Designed and made by &copy;<i>Igor-Nadiein</i> in 2015</span>
+		</footer>
+	</div><!--End .wrapper-->
+
+	<!--External script files-->
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+	<script type="text/javascript" src="script/jquery-mousewheel.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+	
+	<!--Preloader fadeout script-->
+	<script>
+		$(window).load(function() {
+			$("#loading").delay(500).fadeOut(100);
+			$("#loading-center").click(function() {
+			$("#loading").fadeOut(100);
+			})
+		});
+	</script>
 </body> 
 </html>
