@@ -39,9 +39,9 @@ header nav{float:left;margin-top:18px;}
 .header-social .fa-instagram:hover{background:rgb(42,91,131);}
 
 /*First Section*/
-.first-block{position:relative;top:-89px;height:766px;width:100%;background-image:url(../img/bg-hn.jpg);background-repeat:no-repeat;background-position:47% 0%;background-attachment:fixed;border-bottom:4px solid rgb(255,255,255);z-index:-1;overflow:hidden;}
+.first-block{position:relative;top:-89px;height:766px;width:100%;background-image:url(https://cloud.githubusercontent.com/assets/9383391/8783754/820b0d2e-2f26-11e5-9595-064558aa7c1d.jpg);background-repeat:no-repeat;background-position:47% 0%;background-attachment:fixed;border-bottom:4px solid rgb(255,255,255);z-index:-1;overflow:hidden;}
 .control-arrow{width:0;height:0;position:absolute;border-left:28px solid transparent;border-right:28px solid transparent;border-bottom:28px solid rgb(255,255,255);display:inline-block;content:'';left:48%;bottom:0;z-index:1;}
-.control-arrow:after{display:block;position:absolute;top:10px;left:-6px;content:url(../img/arrow.png);}
+.control-arrow:after{display:block;position:absolute;top:10px;left:-6px;content:url(https://cloud.githubusercontent.com/assets/9383391/8783825/f66a5a80-2f26-11e5-9c8b-31e194705424.png);}
 .first-block:after{display:block;content:'';clear:both;}
 
 /*Second Section*/
@@ -100,7 +100,7 @@ input:focus:-moz-placeholder{opacity:0;transition:opacity 0.3s ease;}
 input:focus:-ms-input-placeholder{opacity:0;transition:opacity 0.3s ease;}
 
 /*Third Section*/
-.third-block{position:relative;height:769px;width:100%;background:url('../img/layer-1.png');background-repeat:no-repeat;background-size:100% 100%;overflow:hidden;}
+.third-block{position:relative;height:769px;width:100%;background:url(https://cloud.githubusercontent.com/assets/9383391/8783851/2352ac6e-2f27-11e5-809d-d561654c78e5.png);background-repeat:no-repeat;background-size:100% 100%;overflow:hidden;}
 .third-block .title-box{position:absolute;bottom:110px;left:60px;width:675px;height:195px;background:rgba(136,147,207,0.7);}
 .title-box h1{margin-left:20px;}
 .third-block .read-more{position:absolute;bottom:55px;left:60px;font-family:'Clear Sans';font-style:normal;font-weight:400;font-size:20px;letter-spacing:2px;text-transform:uppercase;text-align:center;line-height:45px;width:260px;background:rgba(136,147,207,0.7);}
@@ -109,19 +109,19 @@ input:focus:-ms-input-placeholder{opacity:0;transition:opacity 0.3s ease;}
 .title-box p{padding:15px 20px 0 20px;text-align:justify;line-height:24px;font-family:'Clear Sans';font-style:normal;font-weight:400;font-size:18px;color:rgb(255,255,255);}
 
 /*Fourth Section*/
-.fourth-block-slider{position:relative;height:770px;width:100%;background:url('../img/layer-2.png');background-repeat:no-repeat;background-position:50% 90%;background-size:100% 140%;overflow:hidden;}
-.fourth-block-slider:after{position:absolute;top:10px;left:360px;content:url(../img/capefish-logo.png);}
+.fourth-block-slider{position:relative;height:770px;width:100%;background:url(https://cloud.githubusercontent.com/assets/9383391/8783868/3e947296-2f27-11e5-94fe-58c9662db0a7.png);background-repeat:no-repeat;background-position:50% 90%;background-size:100% 140%;overflow:hidden;}
+.fourth-block-slider:after{position:absolute;top:10px;left:360px;content:url(https://cloud.githubusercontent.com/assets/9383391/8783882/561fca1e-2f27-11e5-95b5-a06c34800de5.png);}
 .fourth-block-slider h1{margin:50px 0 0 565px;width:525px;line-height:55px;color:rgb(74,60,156);border-color:rgb(74,60,156);}
 .fourth-block-slider span{display:block;font-family:'Clear Sans';font-style:normal;font-weight:400;font-size:21px;margin:30px 0 0 565px;}
 .fourth-block-slider span a{color:rgb(74,60,156);}
 .fourth-block-slider span a:hover{outline:1px dashed rgb(74,60,156);margin-left:-10px;padding:10px;}
 
 /*Fifth Section*/
-.fifth-block{position:relative;height:770px;width:100%;background:url(../img/layer-3.png);background-repeat:no-repeat;background-position:50% 45%;overflow:hidden;}
+.fifth-block{position:relative;height:770px;width:100%;background:url(https://cloud.githubusercontent.com/assets/9383391/8783901/7e87b58e-2f27-11e5-9c0e-2ccedbd46d40.png);background-repeat:no-repeat;background-position:50% 45%;overflow:hidden;}
 
 /*Sixth Section*/
-.sixth-block-slider{position:relative;height:757px;width:100%;background:url('../img/layer-4.png');background-repeat:no-repeat;background-position:50% 50%;background-size:100% 140%;border-bottom:4px solid rgb(255,255,255);overflow:hidden;}
-.sixth-block-slider:after{position:absolute;top:115px;left:60.5%;content:url(../img/manufactura-logo.png);padding-bottom:25px;width:420px;border-bottom:1px solid rgba(0,57,48,.4);}
+.sixth-block-slider{position:relative;height:757px;width:100%;background:url(https://cloud.githubusercontent.com/assets/9383391/8783916/91313ab6-2f27-11e5-8a7a-010668e027f0.png);background-repeat:no-repeat;background-position:50% 50%;background-size:100% 140%;border-bottom:4px solid rgb(255,255,255);overflow:hidden;}
+.sixth-block-slider:after{position:absolute;top:115px;left:60.5%;content:url(https://cloud.githubusercontent.com/assets/9383391/8783944/b5002786-2f27-11e5-8b90-4c49d38ee10c.png);padding-bottom:25px;width:420px;border-bottom:1px solid rgba(0,57,48,.4);}
 .sixth-block-slider h1{font-family:'Clear Sans';font-style:normal;font-weight:300;font-size:46px;color:rgb(0,57,48);border:0;margin:36px 0 0 60%;}
 .sixth-block-slider h3{font-family:'Clear Sans';font-style:normal;font-weight:400;margin:100px 0 0 60.5%;font-size:27px;color:rgb(0,57,48);}
 .sixth-block-slider p{font-family:'Clear Sans';font-style:normal;font-weight:400;margin:20px 0 0 60.5%;width:28%;font-size:18px;line-height:26px;color:rgb(0,57,48);}
