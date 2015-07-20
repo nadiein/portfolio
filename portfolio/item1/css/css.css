@@ -152,14 +152,14 @@ input:focus:-ms-input-placeholder{opacity:0;transition:opacity 0.3s ease;}
 /*Eighth Section*/
 .eighth-block{position:relative;width:100%;height:775px;background-image:linear-gradient(to bottom,rgb(217,187,92),rgb(235,216,119),rgb(243,226,130),rgb(252,234,139),rgb(252,234,139),rgb(252,241,144),rgb(252,234,139),rgb(245,231,133));background-repeat:no-repeat;background-size:auto auto;background-position:35% 25%;}
 .eighth-block h1{margin:20px 0 0 25.5%;}
-.eb-social{position:absolute;top:30px;left:120px;width:1183px;height:662px;background-image:url(../img/layer-13.png);background-repeat:no-repeat;}
+.eb-social{position:absolute;top:30px;left:120px;width:1183px;height:662px;background-image:url(https://cloud.githubusercontent.com/assets/9383391/8783528/20354bb0-2f25-11e5-8c1d-6c24c3ae1f6d.png);background-repeat:no-repeat;}
 .eb-social > div{position:absolute;width:210px;height:210px;background-repeat:no-repeat;}
 .eb-social a{display:block;text-align:center;height:100%;}
-.facebook{top:205px;right:73.4%;background-image:url(../img/facebook.png);}
-.pinterest{top:280px;right:57.7%;background-image:url(../img/pinterest.png);}
-.foursquare{top:192px;left:42%;background-image:url(../img/foursquare.png);}
-.google{top:273px;right:28.5%;background-image:url(../img/google+.png);}
-.instagram{top:205px;right:9%;background-image:url(../img/instagram.png);}
+.facebook{top:205px;right:73.4%;background-image:url(https://cloud.githubusercontent.com/assets/9383391/8783542/400b854e-2f25-11e5-991a-95ee6b837e7c.png);}
+.pinterest{top:280px;right:57.7%;background-image:url(https://cloud.githubusercontent.com/assets/9383391/8783556/546131ec-2f25-11e5-9413-25652b310371.png);}
+.foursquare{top:192px;left:42%;background-image:url(https://cloud.githubusercontent.com/assets/9383391/8783567/682dfcfa-2f25-11e5-9b26-0069963115a0.png);}
+.google{top:273px;right:28.5%;background-image:url(https://cloud.githubusercontent.com/assets/9383391/8783574/78b54240-2f25-11e5-9c20-b6278ac8e9d7.png);}
+.instagram{top:205px;right:9%;background-image:url(https://cloud.githubusercontent.com/assets/9383391/8783588/8db49f42-2f25-11e5-8817-4d6c8e8a1832.png);}
 .footer{position:absolute;bottom:0;width:100%;height:100px;background:rgba(110,110,110,.2);}
 .footer span{display:inline-block;font-family:'Clear Sans';font-style:normal;font-weight:300;font-size:16px;text-transform:uppercase;color:rgb(255,245,180);}
 .footer .copyrights{margin:0 0 0 38%;padding-right:40px;border-right:1px solid rgb(255,245,180);line-height:100px;}
