@@ -19,9 +19,10 @@
 	}
 	function showElementResume () {
 		for (var i = 1; i < containerForShow.children.length; i += 1) {
-			containerForShow.children[0].style.display = 'block';
-			containerForShow.children[1].style.display = 'none';
+			containerForShow.children[0].style.display = 'none';
+			containerForShow.children[1].style.display = 'block';
 			containerForShow.children[2].style.display = 'none';
+			containerForShow.children[3].style.display = 'none';
 		}
 		for(var i = 0; i < activeLink.length; i += 1) {
 			activeLink[0].style.display = 'block';
@@ -31,9 +32,10 @@
 	}
 	function showElementPortfolio () {
 		for (var i = 1; i < containerForShow.children.length; i += 1) {
-			containerForShow.children[1].style.display = 'block';
+			containerForShow.children[2].style.display = 'block';
 			containerForShow.children[0].style.display = 'none';
-			containerForShow.children[2].style.display = 'none';
+			containerForShow.children[1].style.display = 'none';
+			containerForShow.children[3].style.display = 'none';
 		}
 		for(var i = 0; i < activeLink.length; i += 1) {
 			activeLink[0].style.display = 'none';
@@ -43,9 +45,10 @@
 	}
 	function showElementContacts () {
 		for (var i = 1; i < containerForShow.children.length; i += 1) {
-			containerForShow.children[2].style.display = 'block';
+			containerForShow.children[3].style.display = 'block';
 			containerForShow.children[0].style.display = 'none';
 			containerForShow.children[1].style.display = 'none';
+			containerForShow.children[2].style.display = 'none';
 		}
 		for(var i = 0; i < activeLink.length; i += 1) {
 			activeLink[0].style.display = 'none';
