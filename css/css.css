@@ -167,6 +167,8 @@ body{min-width:880px;min-height:300px;margin:0;/*	padding: 0 15px;*/display:-ms-
 /*.container .for-show visibility*/
 .container .for-show{display:none;}
 .for-show h1{font-family:'San Francisco Text';font-size:40px;font-weight:600;color:grey;margin:25px 0 0 50px;}
+.cont-title {position: relative;top: 25%;left: 21%;height: 100px;width: 50%;}
+.cont-title span {display: flex;font: 600 normal 27px 'San Francisco Display';	color: grey;text-align: center;}
 
 /*Resume styles*/
 .resume-for-show{}
