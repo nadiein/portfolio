@@ -1,1 +1,213 @@
+<!doctype html>
+<html>
+<head>
+	<title>SomeWeb</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width">
+	<link href="style/css_reset.css" rel="stylesheet" type="text/css">
+	<link href="style/css.css" rel="stylesheet" type="text/css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+		<!--[if (lte IE 8)]>
+			<script src="js/html5.js"></script>
+		<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		
+		<div class="blackout-hide"></div>
 
+		<header>
+			<div class="header-top">
+				<div class="centerized">
+					<img class="logo" src="img/logo.png" alt="Logo pic" title="Logo" width="200" height="47">
+					<div class="feedback">
+						<div class="phone">
+							<span>+3 (050) 777 77 77</span>
+							<span>+3 (050) 777 77 77</span>
+						</div>
+						<input class="feedback-button" type="button" value="feedback">
+					</div>
+				</div><!--End centerized-->
+
+				<div class="feedback-show">
+					<div class="close"></div>
+					<form method="post" action="action.php" id="feedback" class="feedback-form">
+						<h2>feedback</h2>
+						<label class="field-required">Name</label>
+						<input class="input" autofocus type="text" name="form" required>
+						<label class="field-required">Phone</label>
+						<input class="input" type="tel" name="form" required>
+						<label class="field-required">Email</label>
+						<input class="input" type="email" name="form" required>
+						<label>Text</label>
+						<textarea name="text-feedback" id="feedback-textarea" cols="30" rows="10"></textarea>
+						<button class="form-submit" form="feedback" type="submit">Submit</button>
+					</form>
+				</div><!--End feedback-cont-->
+
+			</div><!--End header-top-->
+			
+			<span class="nav-title">Menu</span>
+			<i class="fa fa-bars bars-hader-nav"></i>
+			<nav>
+				<div class="centerized">
+					<ul class="header-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Catalog</a></li>
+						<li><a href="#">Shipping and payment</a></li>
+						<li><a href="#">Price</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div><!--End centerized-->
+			</nav>
+		</header>
+
+		<div class="slider"></div>
+
+		<div class="content">
+			<div class="centerized">
+				<ul class="breadcrumbs">
+					<li><a href="#">Home<i>&#9656;</i></a></li>
+					<li><a href="#">Catalog<i>&#9656;</i></a></li>
+					<li><a class="active" href="#">Category Name</a></li>
+				</ul>
+				<div class="main-cont">
+					<span class="list-title">Items list</span><i class="fa fa-list"></i>
+					<aside class="leftblock">
+						<ul class="items-list">
+							<li>Cars</li>
+							<li>Household Appliances
+								<ul class="items-list-submenu">
+									<li class="active-item">Microwaves</li>
+									<li>Fridges</li>
+									<li>Посудомоечные машины</li>
+									<li>Dishwashers</li>
+								</ul>
+							</li>
+							<li>Mobile Equipment</li>
+							<li>Computers</li>
+							<li>Clothing</li>
+							<li>Real Estate</li>
+						</ul>
+						<a href="#" class="price-list">Price List</a>
+					</aside>
+					<div class="centerblock">
+						 <div class="items">
+						 	<div class="item-container">
+							 	<div class="item-pic">
+							 		<img src="img/item.png" alt="Item pic">
+							 	</div>
+							 	<p class="item-description">
+							 		Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.
+							 	</p>
+							 	<div class="buy-cont">
+							 		<span class="price">$ 550.95</span>
+							 		<a href="" class="add-to-busket"></a>
+							 	</div>
+							 </div>
+							 <div class="item-container">
+							 	<div class="item-pic">
+							 		<img src="img/item.png" alt="Item pic">
+							 	</div>
+							 	<p class="item-description">
+							 		Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.
+							 	</p>
+							 	<div class="buy-cont">
+							 		<span class="price">$ 350.95</span>
+							 		<a href="" class="add-to-busket"></a>
+							 	</div>
+							 </div>
+							 <div class="item-container">
+							 	<div class="item-pic">
+							 		<img src="img/item.png" alt="Item pic">
+							 	</div>
+							 	<p class="item-description">
+							 		Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.
+							 	</p>
+							 	<div class="buy-cont">
+							 		<span class="price">$ 850.95</span>
+							 		<a href="" class="add-to-busket"></a>
+							 	</div>
+							 </div>
+							 <div class="item-container">
+							 	<div class="item-pic">
+							 		<img src="img/item.png" alt="Item pic">
+							 	</div>
+							 	<p class="item-description">
+							 		Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.
+							 	</p>
+							 	<div class="buy-cont">
+							 		<span class="price">$ 550.95</span>
+							 		<a href="" class="add-to-busket"></a>
+							 	</div>
+							 </div>
+							 <div class="item-container">
+							 	<div class="item-pic">
+							 		<img src="img/item.png" alt="Item pic">
+							 	</div>
+							 	<p class="item-description">
+							 		Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.
+							 	</p>
+							 	<div class="buy-cont">
+							 		<span class="price">$ 350.95</span>
+							 		<a href="" class="add-to-busket"></a>
+							 	</div>
+							 </div>
+							 <div class="item-container">
+							 	<div class="item-pic">
+							 		<img src="img/item.png" alt="Item pic">
+							 	</div>
+							 	<p class="item-description">
+							 		Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.
+							 	</p>
+							 	<div class="buy-cont">
+							 		<span class="price">$ 850.95</span>
+							 		<a href="" class="add-to-busket"></a>
+							 	</div>
+							 </div>
+						 </div><!--End items-->
+						 <ul class="items-pages">
+					 		<li><a href="#">1</a></li>
+					 		<li><a href="#">2</a></li>
+					 		<li><a class="active-page" href="#">3</a></li>
+					 		<li><a href="#">4</a></li>
+					 		<li><a href="#">5</a></li>
+					 		<li><a href="#">6</a></li>
+					 		<li><a href="#">7</a></li>
+					 	</ul>	
+						 <div class="row">
+						 	<div class="col col-left">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper lacinia auctor. Aliquam vitae mi ornare, tincidunt risus sed, euismod nisl. Nullam imperdiet nisi ut est imperdiet posuere. Cras sodales molestie enim eget porta. Vestibulum scelerisque blandit pulvinar. Donec condimentum malesuada neque a blandit. In sodales ex ac pharetra dictum. In interdum facilisis justo. Maecenas sit amet mi vitae purus ultrices fermentum. In vel orci erat. Suspendisse potenti. Donec arcu nunc, imperdiet id neque nec, mollis viverra nisl. Fusce egestas ligula vitae tristique dignissim.</p>
+						 	</div>
+						 	<div class="col col-right">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper lacinia auctor. Aliquam vitae mi ornare, tincidunt risus sed, euismod nisl. Nullam imperdiet nisi ut est imperdiet posuere. Cras sodales molestie enim eget porta. Vestibulum scelerisque blandit pulvinar. Donec condimentum malesuada neque a blandit. In sodales ex ac pharetra dictum. In interdum facilisis justo. Maecenas sit amet mi vitae purus ultrices fermentum. In vel orci erat. Suspendisse potenti. Donec arcu nunc, imperdiet id neque nec, mollis viverra nisl. Fusce egestas ligula vitae tristique dignissim.</p>
+						 	</div>
+						</div><!--End row-->
+					</div><!--End centerblock-->
+				</div><!--End main-cont-->
+			</div><!--End centerized-->
+		</div><!--End content-->
+
+		<footer>
+			<div class="centerized">
+				<span>© SomeWeb 2012–2013, All Rights Reserved.</span>
+				<ul class="footer-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Catalog</a></li>
+					<li><a href="#">Shipping and payment</a></li>
+					<li><a href="#">Price</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</div><!--End centerized-->
+		</footer>
+
+	</div><!--End wrapper-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
