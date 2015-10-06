@@ -13,7 +13,7 @@ $(document).ready(function() {
 	}
 
 	Slider.prototype.buildSlider = function() {
-		$('<div class="widget-slider"><ul class="widget-slider-nav"><div class="widget-slider-pointer"></div><li class="widget-slider-nav1"></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav2"></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav3"></li></ul><div class="widget-slider-show"><ul class="widget-slider-wrap"><li class="widget-slider-img"><img src="img/bg-hn.png" alt=""></li><li class="widget-slider-img"><img src="img/bg-hn.png" alt=""></li><li class="widget-slider-img"><img src="img/bg-hn.png" alt=""></li></ul></div></div>').appendTo(this.node);
+		$('<div class="widget-slider"><ul class="widget-slider-nav"><div class="widget-slider-pointer"></div><li class="widget-slider-nav1"></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav2"></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav3"></li></ul><div class="widget-slider-show"><ul class="widget-slider-wrap"><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10304912/b3215f8a-6c25-11e5-8acf-d149b97ccf59.png" alt=""></li><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10304912/b3215f8a-6c25-11e5-8acf-d149b97ccf59.png" alt=""></li><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10304912/b3215f8a-6c25-11e5-8acf-d149b97ccf59.png" alt=""></li></ul></div></div>').appendTo(this.node);
 		this.node.find('.widget-slider-nav').on('click', this.clickShiftImages.bind(this));
 	};
 
