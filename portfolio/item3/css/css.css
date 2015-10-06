@@ -171,7 +171,7 @@ header{
 	right: -27px;
 	width: 27px;
 	height: 27px;
-	background: white url(../img/times.png) no-repeat 50%;
+	background: white url(https://cloud.githubusercontent.com/assets/9383391/10305070/ab81cf84-6c26-11e5-89a2-21196de3af45.png) no-repeat 50%;
 	background-size: 50%;
 	cursor: pointer;
 }
@@ -502,7 +502,7 @@ header nav {
 	display: -ms-flexbox;
 	display: flex;
 	content: '';
-	background-image: url(../img/price-list.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10305086/d63234bc-6c26-11e5-810f-c06884ea0d0a.png);
 	background-repeat: no-repeat;
 }
 /*Centerblock*/
@@ -591,7 +591,7 @@ header nav {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	background-image: url(../img/addtobasket.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10305101/eb772e86-6c26-11e5-91cb-4d0a86942023.png);
 	background-repeat: no-repeat;
 }
 .items-pages {
