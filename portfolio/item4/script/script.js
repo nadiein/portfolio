@@ -214,17 +214,20 @@
 		if (videoCont.requestFullscreen) {
 		  	videoCont.requestFullscreen();
 		  	resize.style.display = 'none';
-		  	resize.style.display = 'flex';
+		  	deresize.style.display = 'flex';
+		  	deresize.setAttribute('style', 'display:flex !important');
 		  	videoLike.style.display = 'none';
 		} else if (videoCont.mozRequestFullScreen) {
 			videoCont.mozRequestFullScreen();
 			resize.style.display = 'none';
 			deresize.style.display = 'flex';
+			deresize.setAttribute('style', 'display:flex !important');
 			videoLike.style.display = 'none';
 		} else if (videoCont.webkitRequestFullscreen) {
 		  	videoCont.webkitRequestFullscreen();
 		  	resize.style.display = 'none';
 		  	deresize.style.display = 'flex';
+		  	deresize.setAttribute('style', 'display:flex !important');
 		  	videoLike.style.display = 'none';
 		}
 	}, false);
