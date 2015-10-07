@@ -79,7 +79,7 @@ video::-webkit-media-controls-enclosure {
 	-webkit-flex-flow: column nowrap;
 	    -ms-flex-flow: column nowrap;
 	        flex-flow: column nowrap;
-	background: #030406 url(../img/header-bg.jpg);
+	background: #030406 url(https://cloud.githubusercontent.com/assets/9383391/10333082/393ea964-6cea-11e5-9995-7b8e19b2c536.jpg);
 	background-repeat: no-repeat;
 }
 header {
@@ -123,7 +123,7 @@ header {
 	margin: 87px 0 0 0;
 	width: 55.1%;
 	height: 59px;
-	background-image: url(../img/logo.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333100/52ecd46c-6cea-11e5-83e8-4564ff24b6a4.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: -webkit-flex;
@@ -147,7 +147,7 @@ header {
 	display: flex;
 	width: 64px;
 	height: 64px;
-	background-image: url(../img/close.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333115/6bf47b22-6cea-11e5-871a-f9c197f65750.png);
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
@@ -319,7 +319,7 @@ header {
 	-ms-flex-item-align: center;
 	        -webkit-align-self: center;
 	        align-self: center;
-	background-image: url(../img/close.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333115/6bf47b22-6cea-11e5-871a-f9c197f65750.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	cursor: pointer;
@@ -1068,7 +1068,7 @@ footer {
 	.nav-list {top: -15px; left: 41%; display: flex; flex-flow: column nowrap; align-items: center;}
 	.nav-list li {margin: 0 0 19% 0; font: 100 normal 44px 'Roboto', sans-serif;}
 	.watch-video {bottom: 55px; left: 35%;}
-	.close-video {top: -95px; background-image: url(../img/close.png); background-size: 80%; width: 51px; height: 51px;}
+	.close-video {top: -95px; background-size: 80%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 468px;}
 	.media-video {width: 1000px; height: 340px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 60% 5% / 1200px no-repeat ;}
 	.video-like {top: 15px; right: 33px;}
@@ -1099,7 +1099,7 @@ footer {
 	.nav-list {top: -15px; left: 43%; display: flex; flex-flow: column nowrap; align-items: center;}
 	.nav-list li {margin: 0 0 16% 0; font: 100 normal 27px 'Roboto', sans-serif;}
 	.watch-video {bottom: 40px; left: 30%;}
-	.close-video {top: -65px; background-image: url(../img/close.png); background-size: 50%; width: 51px; height: 51px;}
+	.close-video {top: -65px; background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 400px;}
 	.media-video {width: 901px; height: 258px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 60% 5% / 1200px no-repeat ;}
 	.video-like {top: 15px; right: 33px;}
@@ -1121,7 +1121,7 @@ footer {
 	.nav-list {top: -15px; left: 40%; display: flex; flex-flow: column nowrap; align-items: center;}
 	.nav-list li {margin: 0 0 12% 0; font: 100 normal 27px 'Roboto', sans-serif;}
 	.watch-video {bottom: 40px; left: 30%;}
-	.close-video {top: -65px; background-image: url(../img/close.png); background-size: 50%; width: 51px; height: 51px;}
+	.close-video {top: -65px; background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 400px;}
 	.media-video {width: 601px; height: 258px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 60% 5% / 800px no-repeat ;}
 	.video-like {top: 15px; right: 33px;}
@@ -1163,17 +1163,17 @@ footer {
 	.extras-close {top: 25px; right: 10%;}
 }
 @media all and (max-width: 380px) {
-	.logo {margin: 65px 0 0 -5px; width: 273px; height: 54px; background-image: url(../img/logo.png); background-size: 100%;}
+	.logo {margin: 65px 0 0 -5px; width: 273px; height: 54px; background-size: 100%;}
 }
 @media all and (max-width: 320px) {
-	.header-section {min-height: 277px; width: 100%; background-image: url(../img/header-bg.jpg); background-repeat: no-repeat; background-size: 500px; background-position: 40% -4px;}
+	.header-section {min-height: 277px; width: 100%; background-repeat: no-repeat; background-size: 500px; background-position: 40% -4px;}
 	.logo {margin: 40px 0 0 -15px; width: 273px; height: 16px; background-size: 50%;}
 	.menu-bar {margin: 20px 0 0 20px; width: 50px; height: 20px; background-size: 60%;}
 	.nav-list .close-menu {top: 0; left: 15%; background-size: 50%;}
 	.menu {flex-flow: column nowrap; justify-content: center; align-items: center;}
 	.nav-list {top: 0; left: 30%; display: flex; flex-flow: column nowrap; align-items: center;}
 	.nav-list li {margin: 0 0 5% 0; font: 100 normal 24px 'Roboto', sans-serif;}
-	.close-video {top: -65px; background-image: url(../img/close.png); background-size: 50%; width: 51px; height: 51px;}
+	.close-video {top: -65px; background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: 0; height: 355px;}
 	.media-video {width: 320px; height: 277px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 59% 59% / 500px no-repeat ;}
 	.media-controls {width: 85%;}
