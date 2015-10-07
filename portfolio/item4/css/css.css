@@ -1093,7 +1093,7 @@ footer {
 	.extras-close {top: 25px; right: 10%;}
 }
 @media all and (max-width: 848px) {
-	.header-section {min-height: 400px; width: 100%; background-image: url(../img/header-bg.jpg); background-repeat: no-repeat; background-size: 850px; background-position: 40% -4px;}
+	.header-section {min-height: 400px; width: 100%; background-repeat: no-repeat; background-size: 850px; background-position: 40% -4px;}
 	.logo {margin: 55px 0 0 -15px;}
 	.nav-list .close-menu {top: 0; left: 13%; background-size: 50%;}
 	.nav-list {top: -15px; left: 43%; display: flex; flex-flow: column nowrap; align-items: center;}
@@ -1142,14 +1142,14 @@ footer {
 	.logo {margin: 90px 0 0 -15px; width: 320px; height: 63px;}
 	.menu-bar {margin: 20px 0 0 20px; width: 50px; height: 20px; background-size: 60%;}
 	.social {margin: 20px 5px 0 0;}
-	.vimeo {width: 26px; height: 21px; background-image: url(../img/vimeo.png);}
-	.youtube-play {width: 28px; height: 20px; background-image: url(../img/youtube.png);}
-	.twitter {margin: 0; width: 26px; height: 21px; background-image: url(../img/twitter.png);}
-		.vimeo:hover {background-image: url(../img/vimeo-hover.png);}
-	.youtube-play:hover {background-image: url(../img/youtube-hover.png);}
-	.twitter:hover {background-image: url(../img/twitter-hover.png);}
-	.watch-video {bottom: 40px; left: 40%; width: 60px; height: 36px;background-image: url(../img/play.png); background-repeat: no-repeat;}
-	.watch-video:hover {background-image: url(../img/play-hover.png);}
+	.vimeo {width: 26px; height: 21px; background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333486/032555e6-6ced-11e5-89b7-659fd0decbe5.png);}
+	.youtube-play {width: 28px; height: 20px; background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333495/11529386-6ced-11e5-91e9-1a246e6bebce.png);}
+	.twitter {margin: 0; width: 26px; height: 21px; background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333500/1d9d4c30-6ced-11e5-82fe-46337797c4b5.png);}
+	.vimeo:hover {background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333511/2a570498-6ced-11e5-9b1e-030c14c69183.png);}
+	.youtube-play:hover {background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333521/384ff686-6ced-11e5-88c0-5e5038c40c20.png);}
+	.twitter:hover {background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333532/45a53c10-6ced-11e5-81c3-38315f089e8f.png);}
+	.watch-video {bottom: 40px; left: 40%; width: 60px; height: 36px;background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333672/21705c98-6cee-11e5-8d5e-f9427209764d.png); background-repeat: no-repeat;}
+	.watch-video:hover {background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333681/31cf7cea-6cee-11e5-85e9-b77d2aa97d06.png);}
 	.col-right-top {height: 300px; background-size: 1300px; background-position: 50% -216px;}
 	.col-right-top h1 {font: 100 normal 55px 'Roboto', sans-serif;}
 	.col-right-bottom {height: 200px; background-size: 1200px; background-position: 48% -33px;}
@@ -1182,14 +1182,14 @@ footer {
 	.play {font-size: 22px;}
 	.pause {font-size: 11px;}
 	.social {margin: 20px 5px 0 0;}
-	.vimeo {width: 26px; height: 21px; background-image: url(../img/vimeo.png);}
-	.youtube-play {width: 28px; height: 20px; background-image: url(../img/youtube.png);}
-	.twitter {margin: 0; width: 26px; height: 21px; background-image: url(../img/twitter.png);}
-	.vimeo:hover {background-image: url(../img/vimeo-hover.png);}
-	.youtube-play:hover {background-image: url(../img/youtube-hover.png);}
-	.twitter:hover {background-image: url(../img/twitter-hover.png);}
-	.watch-video {bottom: 40px; left: 40%; width: 60px; height: 36px;background-image: url(../img/play.png); background-repeat: no-repeat;}
-	.watch-video:hover {background-image: url(../img/play-hover.png);}
+	.vimeo {width: 26px; height: 21px; background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333486/032555e6-6ced-11e5-89b7-659fd0decbe5.png);}
+	.youtube-play {width: 28px; height: 20px; background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333495/11529386-6ced-11e5-91e9-1a246e6bebce.png);}
+	.twitter {margin: 0; width: 26px; height: 21px; background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333500/1d9d4c30-6ced-11e5-82fe-46337797c4b5.png);}
+	.vimeo:hover {background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333511/2a570498-6ced-11e5-9b1e-030c14c69183.png);}
+	.youtube-play:hover {background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333521/384ff686-6ced-11e5-88c0-5e5038c40c20.png);}
+	.twitter:hover {background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333532/45a53c10-6ced-11e5-81c3-38315f089e8f.png);}
+	.watch-video {bottom: 40px; left: 40%; width: 60px; height: 36px;background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333681/31cf7cea-6cee-11e5-85e9-b77d2aa97d06.png); background-repeat: no-repeat;}
+	.watch-video:hover {background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333681/31cf7cea-6cee-11e5-85e9-b77d2aa97d06.png);}
 	.row {display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-flex-flow: column-reverse nowrap; -ms-flex-flow: column-reverse nowrap; flex-flow: column-reverse nowrap;}
 	.row .col {width: 100%;}
 	.col-left {padding: 25px 30px 0 20px; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start;}
