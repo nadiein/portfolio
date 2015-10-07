@@ -154,6 +154,7 @@
 	var resize = document.querySelector('.fa-expand-resize');
 	var deresize = document.querySelector('.fa-expand-deresize');
 	var progress = document.querySelector('.progress-bar');
+	var progressBar = document.querySelector('.progress-bar');
 	var buffer = document.querySelector('.buffer');
 	var mediaPlayer = document.querySelector('.media-video');
 	var videoLike = document.querySelector('.video-like');
@@ -246,22 +247,28 @@
 	    }
 	}, false);
 
-	mediaPlayer.addEventListener('progress', function () {
-		var bufferedEnd = mediaPlayer.buffered.end(mediaPlayer.buffered.length - 1);
-		var duration = mediaPlayer.duration;
-		if (duration > 0) {
-			buffer.style.width = ((bufferedEnd / duration) * 100) + '%';
-		}
-	}, false);
+	mediaPlayer.addEventListener('timeupdate', function() {
+	   	if (!progress.getAttribute('max')) progress.setAttribute('max', mediaPlayer.duration);
+			progress.value = mediaPlayer.currentTime;
+			buffer.style.width = Math.floor((mediaPlayer.currentTime / mediaPlayer.duration) * 100) + '%';
+	});
 
-	mediaPlayer.addEventListener('timeupdate', function () {
-		var percentage = Math.floor((100 / mediaPlayer.duration) *mediaPlayer.currentTime);
-		progress.value = percentage;
-		var duration = mediaPlayer.duration;
-		if (duration > 0) {
-			buffer.style.width = ((mediaPlayer.currentTime / duration) * 100) + '%';
-		}
-	}, false);
+	// mediaPlayer.addEventListener('progress', function () {
+	// 	var bufferedEnd = mediaPlayer.buffered.end(mediaPlayer.buffered.length - 1);
+	// 	var duration = mediaPlayer.duration;
+	// 	if (duration > 0) {
+	// 		buffer.style.width = ((bufferedEnd / duration) * 100) + '%';
+	// 	}
+	// }, false);
+
+	// mediaPlayer.addEventListener('timeupdate', function () {
+	// 	var percentage = Math.floor((100 / mediaPlayer.duration) *mediaPlayer.currentTime);
+	// 	progress.value = percentage;
+	// 	var duration = mediaPlayer.duration;
+	// 	if (duration > 0) {
+	// 		buffer.style.width = ((mediaPlayer.currentTime / duration) * 100) + '%';
+	// 	}
+	// }, false);
 }());
 
 							//Extras
