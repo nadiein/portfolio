@@ -158,7 +158,7 @@ header {
 	margin: 53px 0 0 58px;
 	width: 50px;
 	height: 20px;
-	background-image: url(../img/menu-bar.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333199/0429530e-6ceb-11e5-956a-8df3df472531.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	cursor: pointer;
@@ -230,27 +230,27 @@ header {
 .vimeo {
 	width: 26px;
 	height: 21px;
-	background-image: url(../img/vimeo-big.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333228/2efbec4a-6ceb-11e5-911d-3e87f35dce9b.png);
 }
 .youtube-play {
 	width: 28px;
 	height: 20px;
-	background-image: url(../img/youtube-big.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333238/4268fd36-6ceb-11e5-9da4-b41d015ea0a0.png);
 }
 .twitter {
 	margin: 0;
 	width: 26px;
 	height: 21px;
-	background-image: url(../img/twitter-big.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333250/53ba400e-6ceb-11e5-9440-9bf67a310e6d.png);
 }
 .vimeo:hover {
-	background-image: url(../img/vimeo-hover-big.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333260/645ed80c-6ceb-11e5-94db-d70b8adcc4cd.png);
 }
 .youtube-play:hover {
-	background-image: url(../img/youtube-hover-big.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333265/70048d82-6ceb-11e5-9411-1f30508da372.png);
 }
 .twitter:hover {
-	background-image: url(../img/twitter-hover-big.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333293/7e0ab5b4-6ceb-11e5-9e80-5745d4851fee.png);
 }
 .watch-video {
 	position: absolute;
@@ -262,10 +262,10 @@ header {
 	cursor: pointer;
 	width: 259px;
 	height: 34px;
-	background-image: url(../img/video-play.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333303/92a62b3e-6ceb-11e5-87ca-e646a6852b8f.png);
 }
 .watch-video:hover {
-	background-image: url(../img/video-play-hover.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333313/a0fe7376-6ceb-11e5-84a6-7e11aef4657e.png);
 }
 .video-container {
 	-webkit-flex-flow: column nowrap;
@@ -308,7 +308,7 @@ header {
 	width: 1600px;
 	height: 680px;
 	margin: 0 0 50px 0;
-	background: #181818 url(../img/video-cover.jpg) 100% 100% / cover no-repeat ;
+	background: #181818 url(https://cloud.githubusercontent.com/assets/9383391/10333324/b75f50a4-6ceb-11e5-8947-8cbc432207c4.jpg) 100% 100% / cover no-repeat ;
 }
 .close-video {
 	position: relative;
@@ -353,7 +353,7 @@ header {
 	margin: 2px 0 0 0;
 	width: 21px;
 	height: 14px;
-	background-image: url(../img/like.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333336/d1268142-6ceb-11e5-8034-1de4b8ca06ec.png);
 	background-repeat: no-repeat;
 }
 .video-like span {
@@ -632,10 +632,10 @@ article p:last-child {
 	cursor: pointer;
 }
 .prev-page {
-	background-image: url(../img/arrow-left.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333346/ea8c473e-6ceb-11e5-82fb-e00fdc99d7fe.png);
 }
 .next-page {
-	background-image: url(../img/arrow-right.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333355/f7fedb48-6ceb-11e5-84f9-0489937e5574.png);
 }
 .col-right {
 	position: relative;
@@ -649,7 +649,7 @@ article p:last-child {
 }
 .col-top {
 	position: relative;
-	background-image: url(../img/synapsis-bg.jpg);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333365/0666caba-6cec-11e5-89e0-3ab2b9e7f855.jpg);
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
@@ -742,16 +742,16 @@ article p:last-child {
 	cursor: pointer;
 }
 .slide-left {
-	background-image: url(../img/chevron-left.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333384/18874706-6cec-11e5-90aa-3aa607946da2.png);
 }
 .slide-right {
-	background-image: url(../img/chevron-right.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333386/2850f7c2-6cec-11e5-9c2b-3d9215fef707.png);
 }
 .slide-left:hover {
-	background-image: url(../img/chevron-left-hover.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333392/34cef51c-6cec-11e5-9492-f804d03e584b.png);
 }
 .slide-right:hover {
-	background-image: url(../img/chevron-right-hover.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333399/423740c4-6cec-11e5-8b3d-6d33b7863fb2.png);
 }
 .slider-container {
 	position: relative;
@@ -825,7 +825,7 @@ article p:last-child {
 	display: flex;
 	width: 18px;
 	height: 17px;
-	background-image: url(../img/close-small.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333407/52a0dc2c-6cec-11e5-8d10-d0b84e60754c.png);
 	cursor: pointer;
 }
 			/*Footer section*/
@@ -839,7 +839,7 @@ footer {
 	-webkit-flex-flow: column nowrap;
 	    -ms-flex-flow: column nowrap;
 	        flex-flow: column nowrap;
-	background: #030406 url(../img/footer-bg.jpg);
+	background: #030406 url(https://cloud.githubusercontent.com/assets/9383391/10333412/60f3391e-6cec-11e5-9fad-03bd01cc7c8a.jpg);
 	background-repeat: no-repeat;
 	background-size: 1583px;
 	background-position: 0 60px;
@@ -908,7 +908,7 @@ footer {
 	right: 15px;
 	width: 9px;
 	height: 16px;
-	background-image: url(../img/chevron.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333435/9d45c792-6cec-11e5-8e9b-d2c3c6ef4021.png);
 	cursor: pointer;
 }
 .fill-form {
@@ -927,7 +927,7 @@ footer {
 	width: 277px;
 	height: 44px;
 	border: 0;
-	background: #030406 url(../img/input-border.png);
+	background: #030406 url(https://cloud.githubusercontent.com/assets/9383391/10333445/b223d398-6cec-11e5-8f59-ed93055e3ad1.png);
 	background-repeat: no-repeat;
 }
 .fill-form button {
@@ -947,7 +947,7 @@ footer {
 	width: 40px;
 	height: 42px;
 	border: 0;
-	background-image: url(../img/button-bg.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333459/c9d71e14-6cec-11e5-92fa-3c8b104c2c9d.png);
 	background-repeat: no-repeat;
 	z-index: 2;
 }
@@ -961,7 +961,7 @@ footer {
 	right: 16px;
 	width: 9px;
 	height: 16px;
-	background-image: url(../img/chevron.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333435/9d45c792-6cec-11e5-8e9b-d2c3c6ef4021.png);
 	background-repeat: no-repeat;
 	cursor: pointer;
 	z-index: 1;
@@ -1008,7 +1008,7 @@ footer {
 	width: 57px;
 	height: 56px;
 	opacity: 0.5;
-	background-image: url(../img/logo-blr.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333479/f19782c2-6cec-11e5-87d3-7f72c9b89345.png);
 	background-repeat: no-repeat;
 }
 .social-footer {
@@ -1028,27 +1028,27 @@ footer {
 .social-footer .vimeo {
 	width: 20px;
 	height: 16px;
-	background-image: url(../img/vimeo.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333486/032555e6-6ced-11e5-89b7-659fd0decbe5.png);
 }
 .social-footer .youtube-play {
 	width: 22px;
 	height: 16px;
-	background-image: url(../img/youtube.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333495/11529386-6ced-11e5-91e9-1a246e6bebce.png);
 }
 .social-footer .twitter {
 	margin: 0;
 	width: 20px;
 	height: 17px;
-	background-image: url(../img/twitter.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333500/1d9d4c30-6ced-11e5-82fe-46337797c4b5.png);
 }
 .social-footer .vimeo:hover {
-	background-image: url(../img/vimeo-hover.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333511/2a570498-6ced-11e5-9b1e-030c14c69183.png);
 }
 .social-footer .youtube-play:hover {
-	background-image: url(../img/youtube-hover.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333521/384ff686-6ced-11e5-88c0-5e5038c40c20.png);
 }
 .social-footer .twitter:hover {
-	background-image: url(../img/twitter-hover.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/9383391/10333532/45a53c10-6ced-11e5-81c3-38315f089e8f.png);
 }
 .footer-bottom span {
 	margin: 20px 0 30px 0;
@@ -1063,14 +1063,14 @@ footer {
 	.extras {padding: 20px 0 0 35px; width: 40%; height: 100%;}
 }
 @media all and (max-width: 1024px) {
-	.header-section {min-height: 600px; width: 100%; background-image: url(../img/header-bg.jpg); background-repeat: no-repeat; background-size: 1200px; background-position: 40% 11px;}
+	.header-section {min-height: 600px; width: 100%; background-repeat: no-repeat; background-size: 1200px; background-position: 40% 11px;}
 	.nav-list .close-menu {top: 0; left: 4%; background-size: 80%;}
 	.nav-list {top: -15px; left: 41%; display: flex; flex-flow: column nowrap; align-items: center;}
 	.nav-list li {margin: 0 0 19% 0; font: 100 normal 44px 'Roboto', sans-serif;}
 	.watch-video {bottom: 55px; left: 35%;}
 	.close-video {top: -95px; background-size: 80%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 468px;}
-	.media-video {width: 1000px; height: 340px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 60% 5% / 1200px no-repeat ;}
+	.media-video {width: 1000px; height: 340px; margin: 0 0 50px 0; background: #181818 url(https://cloud.githubusercontent.com/assets/9383391/10333324/b75f50a4-6ceb-11e5-8947-8cbc432207c4.jpg) 60% 5% / 1200px no-repeat ;}
 	.video-like {top: 15px; right: 33px;}
 	.media-controls {width: 90%;}
 	.play-pause-btn {width: 57px; height: 33px;}
@@ -1101,7 +1101,7 @@ footer {
 	.watch-video {bottom: 40px; left: 30%;}
 	.close-video {top: -65px; background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 400px;}
-	.media-video {width: 901px; height: 258px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 60% 5% / 1200px no-repeat ;}
+	.media-video {width: 901px; height: 258px; margin: 0 0 50px 0; background: #181818 url(https://cloud.githubusercontent.com/assets/9383391/10333324/b75f50a4-6ceb-11e5-8947-8cbc432207c4.jpg) 60% 5% / 1200px no-repeat ;}
 	.video-like {top: 15px; right: 33px;}
 	.play-pause-btn {width: 57px; height: 33px;}
 	.play {font-size: 22px;}
@@ -1116,14 +1116,14 @@ footer {
 	.extras-close {top: 25px; right: 20px;}
 }
 @media all and (max-width: 620px) {
-	.header-section {min-height: 400px; width: 100%; background-image: url(../img/header-bg.jpg); background-repeat: no-repeat; background-size: 800px; background-position: 40% 8px;}
+	.header-section {min-height: 400px; width: 100%; background-repeat: no-repeat; background-size: 800px; background-position: 40% 8px;}
 	.nav-list .close-menu {top: 0; left: 13%; background-size: 50%;}
 	.nav-list {top: -15px; left: 40%; display: flex; flex-flow: column nowrap; align-items: center;}
 	.nav-list li {margin: 0 0 12% 0; font: 100 normal 27px 'Roboto', sans-serif;}
 	.watch-video {bottom: 40px; left: 30%;}
 	.close-video {top: -65px; background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 400px;}
-	.media-video {width: 601px; height: 258px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 60% 5% / 800px no-repeat ;}
+	.media-video {width: 601px; height: 258px; margin: 0 0 50px 0; background: #181818 url(https://cloud.githubusercontent.com/assets/9383391/10333324/b75f50a4-6ceb-11e5-8947-8cbc432207c4.jpg) 60% 5% / 800px no-repeat ;}
 	.video-like {top: 15px; right: 33px;}
 	.play-pause-btn {width: 57px; height: 33px;}
 	.play {font-size: 22px;}
@@ -1175,7 +1175,7 @@ footer {
 	.nav-list li {margin: 0 0 5% 0; font: 100 normal 24px 'Roboto', sans-serif;}
 	.close-video {top: -65px; background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: 0; height: 355px;}
-	.media-video {width: 320px; height: 277px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 59% 59% / 500px no-repeat ;}
+	.media-video {width: 320px; height: 277px; margin: 0 0 50px 0; background: #181818 url(https://cloud.githubusercontent.com/assets/9383391/10333324/b75f50a4-6ceb-11e5-8947-8cbc432207c4.jpg) 59% 59% / 500px no-repeat ;}
 	.media-controls {width: 85%;}
 	.video-like {top: 15px; right: 33px;}
 	.play-pause-btn {width: 57px; height: 32px;}
