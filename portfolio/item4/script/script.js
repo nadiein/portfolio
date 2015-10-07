@@ -246,13 +246,13 @@
 	    }
 	}, false);
 
-	mediaPlayer.addEventListener('progress', function () {
-		var bufferedEnd = mediaPlayer.buffered.end(mediaPlayer.buffered.length - 1);
-		var duration = mediaPlayer.duration;
-		if (duration > 0) {
-			buffer.style.width = ((bufferedEnd / duration) * 100) + '%';
-		}
-	}, false);
+	// mediaPlayer.addEventListener('progress', function () {
+	// 	var bufferedEnd = mediaPlayer.buffered.end(mediaPlayer.buffered.length - 1);
+	// 	var duration = mediaPlayer.duration;
+	// 	if (duration > 0) {
+	// 		buffer.style.width = ((bufferedEnd / duration) * 100) + '%';
+	// 	}
+	// }, false);
 
 	mediaPlayer.addEventListener('timeupdate', function () {
 		var percentage = Math.floor((100 / mediaPlayer.duration) *mediaPlayer.currentTime);
