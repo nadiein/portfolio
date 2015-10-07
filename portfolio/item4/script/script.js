@@ -151,8 +151,8 @@
 	var pause = document.querySelector('.pause');
 	var volume = document.querySelector('.volume');
 	var hdTrigger = document.querySelector('.hd-trigger-active');
-	var resize = document.querySelector('.icon-resize-small');
-	var deresize = document.querySelector('.icon-resize-full-alt');
+	var resize = document.querySelector('.fa-expand-resize');
+	var deresize = document.querySelector('.fa-expand-deresize');
 	var progress = document.querySelector('.progress-bar');
 	var buffer = document.querySelector('.buffer');
 	var mediaPlayer = document.querySelector('.media-video');
