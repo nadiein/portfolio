@@ -530,16 +530,16 @@ progress::-webkit-progress-bar {
 }
 .volume li:last-child {
 }
-.icon-resize-small {
+.fa-expand-resize {
 	color: white;
-	font-size: 13px;
-	margin: 0 8px 0 0;
+	font-size: 16px !important;
+	margin: 0 13px 0 0;
 	cursor: pointer;
 }
-.icon-resize-full-alt {
-	display: none;
+.fa-expand-deresize {
+	display: none !important;
 	color: white;
-	font-size: 13px;
+	font-size: 13px !important;
 	margin: 0 8px 0 0;
 	cursor: pointer;
 }
