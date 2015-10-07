@@ -250,7 +250,7 @@
 		var bufferedEnd = mediaPlayer.buffered.end(mediaPlayer.buffered.length - 1);
 		var duration = mediaPlayer.duration;
 		if (duration > 0) {
-			buffer.style.width = ((bufferedEnd / duration) * 100) + 'px';
+			buffer.style.width = ((bufferedEnd / duration) * 100) + '%';
 		}
 	}, false);
 
@@ -259,7 +259,7 @@
 		progress.value = percentage;
 		var duration = mediaPlayer.duration;
 		if (duration > 0) {
-			buffer.style.width = ((mediaPlayer.currentTime / duration) * 100) + 'px';
+			buffer.style.width = ((mediaPlayer.currentTime / duration) * 100) + '%';
 		}
 	}, false);
 }());
