@@ -1,24 +1,4 @@
 @font-face {
-  font-family: 'Roboto-Medium';
-  src: url('../font/Roboto-Medium.ttf')  format('truetype');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Roboto-Thin';
-  src: url('../font/Roboto-Thin.ttf')  format('truetype');
-  font-weight: 100;
-}
-@font-face {
-  font-family: 'Roboto-Light';
-  src: url('../font/Roboto-Light.ttf')  format('truetype');
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'Roboto-Bold';
-  src: url('../font/Roboto-Bold.ttf')  format('truetype');
-  font-weight: 600;
-}
-@font-face {
   font-family: 'Helvetica';
   src: url('../font/HelveticaNeueLTStd-Bd.ttf')  format('truetype');
   font-weight: 600;
@@ -211,7 +191,7 @@ header {
 .nav-list li {
 	margin: 0 0 20% 0;
 	color: white;
-	font: 100 normal 3.7em 'Roboto-Thin';
+	font: 100 normal 3.7em 'Roboto', sans-serif;
 }
 .nav-list li:last-child {
 	margin: 0;
@@ -316,7 +296,7 @@ header {
 	-ms-flex-item-align: center;
 	        -webkit-align-self: center;
 	        align-self: center;
-	font: 600 normal 24px 'Roboto-Bold';
+	font: 600 normal 24px 'Roboto', sans-serif;
 }
 .media-video {
 	display: -webkit-flex;
@@ -601,16 +581,16 @@ article {
 article h3 {
 	margin: 0 0 30px 0;
 	color: #304050;
-	font: 400 normal 24px 'Roboto-Medium';
+	font: 400 normal 24px 'Roboto', sans-serif;
 	text-transform: uppercase;
 }
 article p {
 	margin: 0 0 25px 0;
-	font: 400 normal 15px 'Roboto-Medium';
+	font: 400 normal 15px 'Roboto', sans-serif;
 	line-height: 26px;
 }
 article p a {
-	font: 400 normal 15px 'Roboto-Medium';
+	font: 400 normal 15px 'Roboto', sans-serif;
 	color: #197bce;
 	text-decoration: underline;
 }
@@ -622,7 +602,7 @@ article p:last-child {
 }
 .page-number {
 	color: #3c3c3c;
-	font: 100 normal 30px 'Roboto-Thin';
+	font: 100 normal 30px 'Roboto', sans-serif;
 	margin: 0 20px;
 }
 .prev-page, .next-page {
@@ -647,7 +627,7 @@ article p:last-child {
 	background-color: #898989;
 	box-shadow: 0 2px 0 #757474;
 	color: white;
-	font: 100 normal 14px 'Roboto-Thin';
+	font: 100 normal 14px 'Roboto', sans-serif;
 	text-transform: uppercase;
 	cursor: pointer;
 }
@@ -700,7 +680,7 @@ article p:last-child {
 .col-right-top h1 {
 	position: relative;
 	color: #304050;
-	font: 100 normal 100px 'Roboto-Thin';
+	font: 100 normal 100px 'Roboto', sans-serif;
 	text-transform: uppercase;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -732,7 +712,7 @@ article p:last-child {
 .gallery-section .title {
 	margin: 40px 70px 0 0;
 	color: #8c99b4;
-	font: 100 normal 30px 'Roboto-Thin';
+	font: 100 normal 30px 'Roboto', sans-serif;
 	text-transform: uppercase;
 	-ms-flex-item-align: end;
 	        -webkit-align-self: flex-end;
@@ -816,13 +796,13 @@ article p:last-child {
 }
 .extras h3 {
 	color: #8c99b4;
-	font: 100 normal 30px 'Roboto-Thin';
+	font: 100 normal 30px 'Roboto', sans-serif;
 	text-transform: uppercase;
 }
 .extras-list li a{
 	margin: 0 10px 0 0;
 	color: #999;
-	font: 400 normal 18px 'Roboto-Medium';
+	font: 400 normal 18px 'Roboto', sans-serif;
 	line-height: 28px;
 	text-decoration: underline;
 }
@@ -833,7 +813,7 @@ article p:last-child {
 	padding: 50px 0;
 }
 .extras-active a {
-	font: 400 normal 16px 'Roboto-Medium';
+	font: 400 normal 16px 'Roboto', sans-serif;
 	text-transform: uppercase;
 }
 .extras-close {
@@ -898,7 +878,7 @@ footer {
 }
 .footer-top span {
 	color: #959595;
-	font: 100 normal 11px 'Roboto-Thin';
+	font: 100 normal 11px 'Roboto', sans-serif;
 	line-height: 34px;
 	text-decoration: underline;
 	text-transform: uppercase;
@@ -909,7 +889,7 @@ footer {
 }
 .input-cont input[type=button] {
 	color: white;
-	font: 100 normal 16px 'Roboto-Thin';
+	font: 100 normal 16px 'Roboto', sans-serif;
 	text-transform: uppercase;
 	width: 317px;
 	height: 44px;
@@ -942,7 +922,7 @@ footer {
 	color: white;
 	text-indent: 10px;
 	padding: 0 40px 0 0;
-	font: 100 normal 16px 'Roboto-Thin';
+	font: 100 normal 16px 'Roboto', sans-serif;
 	text-transform: uppercase;
 	width: 277px;
 	height: 44px;
@@ -1086,7 +1066,7 @@ footer {
 	.header-section {min-height: 600px; width: 100%; background-image: url(../img/header-bg.jpg); background-repeat: no-repeat; background-size: 1200px; background-position: 40% 11px;}
 	.nav-list .close-menu {top: 0; left: 4%; background-size: 80%;}
 	.nav-list {top: -15px; left: 41%; display: flex; flex-flow: column nowrap; align-items: center;}
-	.nav-list li {margin: 0 0 19% 0; font: 100 normal 44px 'Roboto-Thin';}
+	.nav-list li {margin: 0 0 19% 0; font: 100 normal 44px 'Roboto', sans-serif;}
 	.watch-video {bottom: 55px; left: 35%;}
 	.close-video {top: -95px; background-image: url(../img/close.png); background-size: 80%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 468px;}
@@ -1102,13 +1082,13 @@ footer {
 	article {width: 95%; margin: 0; padding: 0; min-height: 580px; border: 0;}
 	.read-more {margin: 0 0 20px 0; align-self: center;}
 	.col-right-top {height: 400px; background-size: 1900px; background-position: 50% -316px;}
-	.col-right-top h1 {font: 100 normal 75px 'Roboto-Thin';}
+	.col-right-top h1 {font: 100 normal 75px 'Roboto', sans-serif;}
 	.col-right-bottom {height: 300px; background-size: 1800px; background-position: 48% -64px;}
 	.gallery-section {min-height: 547px;}
 	.slider-container {height: 470px;}
 	.extras {padding: 20px 0 0 35px; width: 40%; height: 100%;}
-	.extras h3 {font: 100 normal 24px 'Roboto-Thin';}
-	.extras-list li a{font: 400 normal 16px 'Roboto-Medium'; line-height: 24px;}
+	.extras h3 {font: 100 normal 24px 'Roboto', sans-serif;}
+	.extras-list li a{font: 400 normal 16px 'Roboto', sans-serif; line-height: 24px;}
 	.extras-active {padding: 15px 0;}
 	.extras-close {top: 25px; right: 10%;}
 }
@@ -1117,7 +1097,7 @@ footer {
 	.logo {margin: 55px 0 0 -15px;}
 	.nav-list .close-menu {top: 0; left: 13%; background-size: 50%;}
 	.nav-list {top: -15px; left: 43%; display: flex; flex-flow: column nowrap; align-items: center;}
-	.nav-list li {margin: 0 0 16% 0; font: 100 normal 27px 'Roboto-Thin';}
+	.nav-list li {margin: 0 0 16% 0; font: 100 normal 27px 'Roboto', sans-serif;}
 	.watch-video {bottom: 40px; left: 30%;}
 	.close-video {top: -65px; background-image: url(../img/close.png); background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 400px;}
@@ -1139,7 +1119,7 @@ footer {
 	.header-section {min-height: 400px; width: 100%; background-image: url(../img/header-bg.jpg); background-repeat: no-repeat; background-size: 800px; background-position: 40% 8px;}
 	.nav-list .close-menu {top: 0; left: 13%; background-size: 50%;}
 	.nav-list {top: -15px; left: 40%; display: flex; flex-flow: column nowrap; align-items: center;}
-	.nav-list li {margin: 0 0 12% 0; font: 100 normal 27px 'Roboto-Thin';}
+	.nav-list li {margin: 0 0 12% 0; font: 100 normal 27px 'Roboto', sans-serif;}
 	.watch-video {bottom: 40px; left: 30%;}
 	.close-video {top: -65px; background-image: url(../img/close.png); background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: -100px; height: 400px;}
@@ -1149,7 +1129,7 @@ footer {
 	.play {font-size: 22px;}
 	.pause {font-size: 11px;}
 	.col-right-top {height: 400px; background-size: 1900px; background-position: 50% -316px;}
-	.col-right-top h1 {font: 100 normal 75px 'Roboto-Thin';}
+	.col-right-top h1 {font: 100 normal 75px 'Roboto', sans-serif;}
 	.col-right-bottom {height: 300px; background-size: 1800px; background-position: 48% -64px;}
 	.gallery-section {min-height: 577px;}
 	.slider-nav {align-self: flex-start; align-items: flex-start; margin: -45px 0 0 50px;}
@@ -1157,7 +1137,7 @@ footer {
 @media all and (max-width: 500px) {
 	.nav-list .close-menu {top: 0; left: 13%; background-size: 50%;}
 	.nav-list {top: 19px; left: 36%; display: flex; flex-flow: column nowrap; align-items: center;}
-	.nav-list li {margin: 0 0 12% 0; font: 100 normal 27px 'Roboto-Thin';}
+	.nav-list li {margin: 0 0 12% 0; font: 100 normal 27px 'Roboto', sans-serif;}
 	.watch-video {bottom: 40px; left: 30%;}
 	.logo {margin: 90px 0 0 -15px; width: 320px; height: 63px;}
 	.menu-bar {margin: 20px 0 0 20px; width: 50px; height: 20px; background-size: 60%;}
@@ -1171,14 +1151,14 @@ footer {
 	.watch-video {bottom: 40px; left: 40%; width: 60px; height: 36px;background-image: url(../img/play.png); background-repeat: no-repeat;}
 	.watch-video:hover {background-image: url(../img/play-hover.png);}
 	.col-right-top {height: 300px; background-size: 1300px; background-position: 50% -216px;}
-	.col-right-top h1 {font: 100 normal 55px 'Roboto-Thin';}
+	.col-right-top h1 {font: 100 normal 55px 'Roboto', sans-serif;}
 	.col-right-bottom {height: 200px; background-size: 1200px; background-position: 48% -33px;}
 	.slider-nav {align-self: flex-start; align-items: flex-start; margin: -40px 0 0 20px;}
 	.gallery-section .title {margin: 25px 20px 0 0;-webkit-align-self: flex-end;-ms-flex-item-align: flex-end;align-self: flex-end;}
 	.slider-container {height: 528px;}
 	.extras {padding: 20px 0 0 35px; width: 100%; height: 200px;}
-	.extras h3 {font: 100 normal 24px 'Roboto-Thin';}
-	.extras-list li a{font: 400 normal 16px 'Roboto-Medium';line-height: 24px;}
+	.extras h3 {font: 100 normal 24px 'Roboto', sans-serif;}
+	.extras-list li a{font: 400 normal 16px 'Roboto', sans-serif;line-height: 24px;}
 	.extras-active {padding: 15px 0;}
 	.extras-close {top: 25px; right: 10%;}
 }
@@ -1192,7 +1172,7 @@ footer {
 	.nav-list .close-menu {top: 0; left: 15%; background-size: 50%;}
 	.menu {flex-flow: column nowrap; justify-content: center; align-items: center;}
 	.nav-list {top: 0; left: 30%; display: flex; flex-flow: column nowrap; align-items: center;}
-	.nav-list li {margin: 0 0 5% 0; font: 100 normal 24px 'Roboto-Thin';}
+	.nav-list li {margin: 0 0 5% 0; font: 100 normal 24px 'Roboto', sans-serif;}
 	.close-video {top: -65px; background-image: url(../img/close.png); background-size: 50%; width: 51px; height: 51px;}
 	.video-container {top: 0; height: 355px;}
 	.media-video {width: 320px; height: 277px; margin: 0 0 50px 0; background: #181818 url(../img/video-cover.jpg) 59% 59% / 500px no-repeat ;}
@@ -1222,8 +1202,8 @@ footer {
 	.slider-container {height: 528px;}
 	.slider-nav {display: none;}
 	.extras {padding: 20px 0 0 35px; width: 270px; height: 200px;}
-	.extras h3 {font: 100 normal 24px 'Roboto-Thin';}
-	.extras-list li a{font: 400 normal 16px 'Roboto-Medium';line-height: 24px;}
+	.extras h3 {font: 100 normal 24px 'Roboto', sans-serif;}
+	.extras-list li a{font: 400 normal 16px 'Roboto', sans-serif;line-height: 24px;}
 	.extras-active {padding: 15px 0;}
 	.extras-close {top: 25px; right: 20px;}
 }
