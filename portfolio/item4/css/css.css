@@ -429,6 +429,7 @@ header {
 	-webkit-justify-content: space-between;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
+	margin: 4px 0 0 0; 
 	width: 94%;
 	height: 32px;
 	opacity: 0.8;
