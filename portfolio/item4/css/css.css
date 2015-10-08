@@ -465,7 +465,7 @@ progress::-webkit-progress-bar {
     display: flex;
     top: 12px;
     left: 12px;
-    max-width: 89%;
+    max-width: 89.9%;
     height: 8px;
     background-color: #6b6f70;
     z-index: -1;
