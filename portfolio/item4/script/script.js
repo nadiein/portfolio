@@ -118,6 +118,7 @@ $(document).ready(function() {
 	var videoCloseButton = document.querySelector('.close-video');
 	var videoContainer = document.querySelector('.video-container');
 	var blackoutHide = document.querySelector('.blackout-hide');
+	var mediaPlayer = document.querySelector('.media-video');
 
 	menuOpenButton.addEventListener('click', function () {
 			menuContainer.style.display = 'flex'
@@ -151,6 +152,7 @@ $(document).ready(function() {
 			videoContainer.style.transition = "opacity 1s ease-out, visibility 1s ease-out";
 			blackoutHide.classList.add('blackout-hide');
 			blackoutHide.classList.remove('blackout-show');
+			mediaPlayer.pause();
 	}, false);
 
 }());
