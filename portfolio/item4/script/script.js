@@ -1,97 +1,111 @@
-// 'use strict';
-// $(document).ready(function() {
+'use strict';
+$(document).ready(function() {
 
-// 	function Slider(node) {
-// 		this.node = node;
-// 		this.Slider = this.buildSlider();
-// 		this.wrapSlider = $('.widget-slider-wrap', this.node);
-// 		this.slideWidth = $('.widget-slider-img', this.node).outerWidth();
-// 		this.shiftImage = this.wrapSlider.position().left - this.slideWidth;
-// 		this.scrollSlider = this.shiftImage;
-// 		this.counter = 0;
-// 		this.autoStartSlider();
-// 	}
+	function Slider(node) {
+		this.node = node;
+		this.Slider = this.buildSlider();
+		this.wrapSlider = $('.widget-slider-wrap', this.node);
+		this.slideWidth = $('.widget-slider-img', this.node).outerWidth();
+		this.shiftImage = this.wrapSlider.position().left - this.slideWidth;
+		this.scrollSlider = this.shiftImage;
+		this.counter = 0;
+		this.autoStartSlider();
+	}
 
-// 	Slider.prototype.buildSlider = function() {
-// 		$('<div class="widget-slider"><ul class="widget-slider-nav"><div class="widget-slider-pointer"></div><li class="widget-slider-nav1"></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav2"></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav3"></li></ul><div class="widget-slider-show"><ul class="widget-slider-wrap"><li class="widget-slider-img"><img src="img/bg-hn.png" alt=""></li><li class="widget-slider-img"><img src="img/bg-hn.png" alt=""></li><li class="widget-slider-img"><img src="img/bg-hn.png" alt=""></li></ul></div></div>').appendTo(this.node);
-// 		this.node.find('.widget-slider-nav').on('click', this.clickShiftImages.bind(this));
-// 	};
+	Slider.prototype.buildSlider = function() {
+		$('<div class="widget-slider"><ul class="widget-slider-nav"><div class="widget-slider-pointer"></div><li class="widget-slider-nav1"><img class="image-shift1" src="https://cloud.githubusercontent.com/assets/9383391/10399486/a1bd0828-6ebb-11e5-85a2-fb3e9f15f028.png" alt=""></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav2"><img class="image-shift2" src="https://cloud.githubusercontent.com/assets/9383391/10399467/8523d93a-6ebb-11e5-801d-cd99f4767a7d.png" alt=""></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav3"><img class="image-shift3" src="https://cloud.githubusercontent.com/assets/9383391/10399450/6f635670-6ebb-11e5-9cef-f2ae7993655c.png" alt=""></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav4"><img class="image-shift4" src="https://cloud.githubusercontent.com/assets/9383391/10399415/49cc2e50-6ebb-11e5-94a6-6a4d59ec2b9c.png" alt=""></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav5"><img class="image-shift5" src="https://cloud.githubusercontent.com/assets/9383391/10399360/e0a20e54-6eba-11e5-990a-459fda8e5fdc.png" alt=""></li><div class="widget-slider-pointer"></div><li class="widget-slider-nav6"><img class="image-shift6" src="https://cloud.githubusercontent.com/assets/9383391/10399392/1e662d24-6ebb-11e5-9a88-95dd5f3f06f7.png" alt=""></li></ul><div class="widget-slider-show"><ul class="widget-slider-wrap"><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10399360/e0a20e54-6eba-11e5-990a-459fda8e5fdc.png" alt=""></li><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10399360/e0a20e54-6eba-11e5-990a-459fda8e5fdc.png" alt=""></li><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10399360/e0a20e54-6eba-11e5-990a-459fda8e5fdc.png" alt=""></li><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10399360/e0a20e54-6eba-11e5-990a-459fda8e5fdc.png" alt=""></li><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10399360/e0a20e54-6eba-11e5-990a-459fda8e5fdc.png" alt=""></li><li class="widget-slider-img"><img src="https://cloud.githubusercontent.com/assets/9383391/10399360/e0a20e54-6eba-11e5-990a-459fda8e5fdc.png" alt=""></li></ul></div></div>').appendTo(this.node);
+		this.node.find('.widget-slider-nav').on('click', this.clickShiftImages.bind(this));
+	};
 
-// 	Slider.prototype.autoStartSlider = function() {
-// 		this.clearPointer();
-// 		this.showPointer();
-// 		this.shift = setInterval(this.autoShiftImages.bind(this), 4000);
-// 	};
+	Slider.prototype.autoStartSlider = function() {
+		this.clearPointer();
+		this.showPointer();
+		this.shift = setInterval(this.autoShiftImages.bind(this), 4000);
+	};
 
-// 	Slider.prototype.clearPointer = function() {
-// 		$('.widget-slider-nav li', this.node).css('background-color', 'rgba(40, 44, 55, .3)');
-// 		$('.widget-slider-pointer', this.node).css('display', 'none');
-// 	};
+	Slider.prototype.clearPointer = function() {
+		$('.widget-slider-nav li img', this.node).css('opacity', '.1');
+		$('.widget-slider-pointer', this.node).css('display', 'none');
+	};
 
-// 	Slider.prototype.showPointer = function() {
-// 		$('.widget-slider-nav li', this.node).eq(this.counter).css('background-color', 'white');
-// 		$('.widget-slider-pointer', this.node).eq(this.counter).css('display', 'block');
-// 	};
+	Slider.prototype.showPointer = function() {
+		$('.widget-slider-nav li img', this.node).eq(this.counter).css('opacity', '1');
+		$('.widget-slider-pointer', this.node).eq(this.counter).css('display', 'flex');
+	};
 
-// 	Slider.prototype.autoShiftImages = function() {
-// 		this.clearPointer();
-// 		if (this.counter === 2) {
-// 			this.wrapSlider.animate({
-// 				left: 0
-// 			}, 1000);
-// 			this.scrollSlider = this.shiftImage;
-// 			this.counter = 0;
-// 		} else {
-// 			this.wrapSlider.animate({
-// 				left: this.scrollSlider
-// 			}, 1000);
-// 			this.counter += 1;
-// 			this.scrollSlider += this.shiftImage;
-// 		}
-// 		this.showPointer();
-// 	};
+	Slider.prototype.autoShiftImages = function() {
+		this.clearPointer();
+		if (this.counter === 5) {
+			this.wrapSlider.animate({
+				left: 0
+			}, 1000);
+			this.scrollSlider = this.shiftImage;
+			this.counter = 0;
+		} else {
+			this.wrapSlider.animate({
+				left: this.scrollSlider
+			}, 1000);
+			this.counter += 1;
+			this.scrollSlider += this.shiftImage;
+		}
+		this.showPointer();
+	};
 
-// 	Slider.prototype.clickShiftImages = function(event) {
-// 		clearInterval(this.shift);
-// 		clearInterval(this.timeoutAfterClick);
-// 		this.clearPointer();
-// 		this.wrapSlider.stop();
-// 		$(event.target).css('background-color', 'white');
-// 		$(event.target.previousElementSibling).css('display', 'block');
-// 		if (event.target.className === 'widget-slider-nav1') {
-// 			this.counter = 0;
-// 			this.scrollSlider = this.counter * this.shiftImage;
-// 			this.wrapSlider.animate({
-// 				left: this.scrollSlider
-// 			}, 1000);
-// 			this.scrollSlider += this.shiftImage;
-// 		} else if (event.target.className === 'widget-slider-nav2') {
-// 			this.counter = 1;
-// 			this.scrollSlider = this.counter * this.shiftImage;
-// 			this.wrapSlider.animate({
-// 				left: this.scrollSlider
-// 			}, 1000);
-// 			this.scrollSlider += this.shiftImage;
-// 		} else if (event.target.className === 'widget-slider-nav3') {
-// 			this.counter = 2;
-// 			this.scrollSlider = this.counter * this.shiftImage;
-// 			this.wrapSlider.animate({
-// 				left: this.scrollSlider
-// 			}, 1000);
-// 			this.scrollSlider += this.shiftImage;
-// 		} else if (event.target.className === 'widget-slider-nav4') {
-// 			this.counter = 3;
-// 			this.scrollSlider = this.counter * this.shiftImage;
-// 			this.wrapSlider.animate({
-// 				left: this.scrollSlider
-// 			}, 1000);
-// 			this.scrollSlider += this.shiftImage;
-// 		}
-// 		this.timeoutAfterClick = setTimeout(this.autoStartSlider.bind(this), 4000);
-// 	};
+	Slider.prototype.clickShiftImages = function(event) {
+		clearInterval(this.shift);
+		clearInterval(this.timeoutAfterClick);
+		this.clearPointer();
+		this.wrapSlider.stop();
+		$(event.target).css('background-color', 'white');
+		$(event.target.previousElementSibling).css('display', 'block');
+		if (event.target.className === 'image-shift1') {
+			this.counter = 0;
+			this.scrollSlider = this.counter * this.shiftImage;
+			this.wrapSlider.animate({
+				left: this.scrollSlider
+			}, 1000);
+			this.scrollSlider += this.shiftImage;
+		} else if (event.target.className === 'image-shift2') {
+			this.counter = 1;
+			this.scrollSlider = this.counter * this.shiftImage;
+			this.wrapSlider.animate({
+				left: this.scrollSlider
+			}, 1000);
+			this.scrollSlider += this.shiftImage;
+		} else if (event.target.className === 'image-shift3') {
+			this.counter = 2;
+			this.scrollSlider = this.counter * this.shiftImage;
+			this.wrapSlider.animate({
+				left: this.scrollSlider
+			}, 1000);
+			this.scrollSlider += this.shiftImage;
+		} else if (event.target.className === 'image-shift4') {
+			this.counter = 3;
+			this.scrollSlider = this.counter * this.shiftImage;
+			this.wrapSlider.animate({
+				left: this.scrollSlider
+			}, 1000);
+			this.scrollSlider += this.shiftImage;
+		} else if (event.target.className === 'image-shift5') {
+			this.counter = 4;
+			this.scrollSlider = this.counter * this.shiftImage;
+			this.wrapSlider.animate({
+				left: this.scrollSlider
+			}, 1000);
+			this.scrollSlider += this.shiftImage;
+		} else if (event.target.className === 'image-shift6') {
+			this.counter = 5;
+			this.scrollSlider = this.counter * this.shiftImage;
+			this.wrapSlider.animate({
+				left: this.scrollSlider
+			}, 1000);
+			this.scrollSlider += this.shiftImage;
+		} 
+		this.timeoutAfterClick = setTimeout(this.autoStartSlider.bind(this), 4000);
+	};
 
-// 	new Slider($('.slider'));
-// });
+	new Slider($('.slider-container'));
+});
 
 
 								//Menu 
@@ -154,14 +168,13 @@
 	var resize = document.querySelector('.fa-expand-resize');
 	var deresize = document.querySelector('.fa-expand-deresize');
 	var progress = document.querySelector('.progress-bar');
-	var progressBar = document.querySelector('.progress-bar');
 	var buffer = document.querySelector('.buffer');
 	var mediaPlayer = document.querySelector('.media-video');
 	var videoLike = document.querySelector('.video-like');
 	var oldx = 0;
 
 	playPauseButton.addEventListener('click', function () {
-		if (mediaPlayer.paused || mediaPlayer.ended) {
+		if (mediaPlayer.paused) {
 			play.style.opacity = '0';
 			pause.style.opacity = '1';
 			play.style.display = 'none';
