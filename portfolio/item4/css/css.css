@@ -848,16 +848,19 @@ article p:last-child {
 	flex-flow: column nowrap;
 	align-items: flex-end;
 	font-size: 50px;
-	background-color: rgb(80, 80, 80);
+	background-color: rgba(0, 0, 0, .8);
 	top: 20px;
 	left: -24px;
 	cursor: pointer;
+	z-index: 100;
 }
 .extras {
-	position: relative;
+	position: absolute;
+	top: -16px;
+	left: 0;
 	padding: 75px 0 0 80px;
 	width: 35.4%;
-	height: 100%;
+	height: 93%;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -865,6 +868,7 @@ article p:last-child {
 	    -ms-flex-flow: column nowrap;
 	        flex-flow: column nowrap;
 	background-color: rgba(0, 0, 0, .8);
+	z-index: 100;
 }
 .extras h3 {
 	color: #8c99b4;
