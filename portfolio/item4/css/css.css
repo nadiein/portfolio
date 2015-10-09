@@ -1162,6 +1162,7 @@ footer {
 	.col-right-bottom {height: 300px; background-size: 1800px; background-position: 48% -64px;}
 	.gallery-section {min-height: 547px;}
 	.slider-container {height: 470px;}
+	.slider-container .widget-slider-nav {display: none};
 	.extras {padding: 20px 0 0 35px; width: 40%; height: 100%;}
 	.extras h3 {font: 100 normal 24px 'Roboto', sans-serif;}
 	.extras-list li a{font: 400 normal 16px 'Roboto', sans-serif; line-height: 24px;}
@@ -1273,7 +1274,7 @@ footer {
 	.col-right-top {height: 197px; background-size: 900px; background-position: 54% -165px;}
 	.col-right-top h1 {font-size: 38px; color: #304050;}
 	.col-right-bottom {display: none;}
-	.gallery-section {min-height: 620px;}
+	.gallery-section {display: none; min-height: 620px;}
 	.gallery-section .title {margin: 25px 0 0 -35px;-webkit-align-self: center;-ms-flex-item-align: center;align-self: center;}
 	.slider-container {height: 528px;}
 	.slider-nav {display: none;}
