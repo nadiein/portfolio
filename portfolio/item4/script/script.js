@@ -56,8 +56,8 @@ $(document).ready(function() {
 		clearInterval(this.timeoutAfterClick);
 		this.clearPointer();
 		this.wrapSlider.stop();
-		$(event.target).css('background-color', 'white');
-		$(event.target.previousElementSibling).css('display', 'block');
+		$(event.target).css('opacity', '1');
+		$(event.target.previousElementSibling).css('display', 'flex');
 		if (event.target.className === 'image-shift1') {
 			this.counter = 0;
 			this.scrollSlider = this.counter * this.shiftImage;
