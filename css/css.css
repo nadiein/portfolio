@@ -7,32 +7,32 @@
 @font-face{font-family:'San Francisco Text';src:url('../fonts/sanfranciscotext-bold-webfont.eot');src:url('../fonts/sanfranciscotext-bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/sanfranciscotext-bold-webfont.woff2') format('woff2'),url('../fonts/sanfranciscotext-bold-webfont.woff') format('woff'),url('../fonts/sanfranciscotext-bold-webfont.ttf') format('truetype'),url('../fonts/sanfranciscotext-bold-webfont.svg#San Francisco Text bold') format('svg');font-weight:700;font-style:normal;}
 
 /*Pre Loader*/
-/*#loading{background-color:rgb(90,90,90);height:100%;width:100%;position:fixed;z-index:1;margin-top:0px;top:0px;}*/
-/*#loading-center{width:100%;height:100%;position:relative;}*/
-/*#loading-center-absolute{position:absolute;left:50%;top:50%;height:50px;width:200px;margin-top:-25px;margin-left:-100px;}*/
-/*.object{width:20px;height:20px;background-color:#FFF;float:left;margin-top:15px;border-radius:50% 50% 50% 50%;}*/
-/*#first_object{-webkit-animation:first_object 2s infinite;animation:first_object 2s infinite;}*/
-/*#second_object{-webkit-animation:second_object 2s infinite;animation:second_object 2s infinite;}*/
-/*@-webkit-keyframes first_object{*/
-/*	25%{-webkit-transform:translate(90px,0) scale(2);transform:translate(90px,0) scale(2);}*/
-/*	50%{-webkit-transform:translate(180px,0) scale(1);transform:translate(180px,0) scale(1);}*/
-/*	75%{-webkit-transform:translate(90px,0) scale(2);transform:translate(90px,0) scale(2);}*/
-/*}*/
-/*@keyframes first_object{*/
-/*	25%{-webkit-transform:translate(90px,0) scale(2);transform:translate(90px,0) scale(2);}*/
-/*	50%{-webkit-transform:translate(180px,0) scale(1);transform:translate(180px,0) scale(1);}*/
-/*	75%{-webkit-transform:translate(90px,0) scale(2);transform:translate(90px,0) scale(2);}*/
-/*}*/
-/*@-webkit-keyframes second_object{*/
-/*	25%{-webkit-transform:translate(-90px,0) scale(2);transform:translate(-90px,0) scale(2);}*/
-/*	50%{-webkit-transform:translate(-180px,0) scale(1);transform:translate(-180px,0) scale(1);}*/
-/*	75%{-webkit-transform:translate(-90px,0) scale(2);transform:translate(-90px,0) scale(2);}*/
-/*}*/
-/*@keyframes second_object{*/
-/*	25%{-webkit-transform:translate(-90px,0) scale(2);transform:translate(-90px,0) scale(2);}*/
-/*	50%{-webkit-transform:translate(-180px,0) scale(1);transform:translate(-180px,0) scale(1);}*/
-/*	75%{-webkit-transform:translate(-90px,0) scale(2);transform:translate(-90px,0) scale(2);}*/
-/*}*/
+#loading{background-color:rgb(255,255,255);height:100%;width:100%;position:fixed;z-index:1;margin-top:0px;top:0px;}
+#loading-center{width:100%;height:100%;position:relative;}
+#loading-center-absolute{position:absolute;left:50%;top:50%;height:50px;width:200px;margin-top:-25px;margin-left:-100px;}
+.object{display:none !important;width:20px;height:20px;background-color:#FFF;float:left;margin-top:15px;border-radius:50% 50% 50% 50%;}
+#first_object{display:none !important;-webkit-animation:first_object 2s infinite;animation:first_object 2s infinite;}
+#second_object{display:none !important;-webkit-animation:second_object 2s infinite;animation:second_object 2s infinite;}
+@-webkit-keyframes first_object{
+	25%{-webkit-transform:translate(90px,0) scale(2);transform:translate(90px,0) scale(2);}
+	50%{-webkit-transform:translate(180px,0) scale(1);transform:translate(180px,0) scale(1);}
+	75%{-webkit-transform:translate(90px,0) scale(2);transform:translate(90px,0) scale(2);}
+}
+@keyframes first_object{
+	25%{-webkit-transform:translate(90px,0) scale(2);transform:translate(90px,0) scale(2);}
+	50%{-webkit-transform:translate(180px,0) scale(1);transform:translate(180px,0) scale(1);}
+	75%{-webkit-transform:translate(90px,0) scale(2);transform:translate(90px,0) scale(2);}
+}
+@-webkit-keyframes second_object{
+	25%{-webkit-transform:translate(-90px,0) scale(2);transform:translate(-90px,0) scale(2);}
+	50%{-webkit-transform:translate(-180px,0) scale(1);transform:translate(-180px,0) scale(1);}
+	75%{-webkit-transform:translate(-90px,0) scale(2);transform:translate(-90px,0) scale(2);}
+}
+@keyframes second_object{
+	25%{-webkit-transform:translate(-90px,0) scale(2);transform:translate(-90px,0) scale(2);}
+	50%{-webkit-transform:translate(-180px,0) scale(1);transform:translate(-180px,0) scale(1);}
+	75%{-webkit-transform:translate(-90px,0) scale(2);transform:translate(-90px,0) scale(2);}
+}
 
 /* Skills animation */
 @-webkit-keyframes{
