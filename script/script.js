@@ -1,4 +1,4 @@
-document.location = 'http://sn00zzzy.github.io/under-reconstruction';
+window.location = 'http://sn00zzzy.github.io/under-reconstruction';
 'use strict';
 ;(function () {
 	var buttonForShow = document.querySelector('.vertical-header');
