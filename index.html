@@ -22,14 +22,6 @@
 </head>
 <body>
 	<!--Preloader-->
-	<div id="loading">
-		<div id="loading-center">
-			<div id="loading-center-absolute">
-				<div class="object" id="first_object"></div>
-				<div class="object" id="second_object" style="float:right;"></div>
-			</div>
-		</div>
-	</div>
 	<!--Menu for mobile devices-->
 	<!-- <div class="mobile-menu">
 		<i class="fa fa-bars"></i>
@@ -328,13 +320,5 @@
 	<script type="text/javascript" src="script/script.js"></script>
 	
 	<!--Preloader fadeout script-->
-	<script>
-		$(window).load(function() {
-			$("#loading").delay(1000).fadeOut(300);
-			$("#loading-center").click(function() {
-			$("#loading").fadeOut(300);
-			})
-		});
-	</script>
 </body> 
 </html>
