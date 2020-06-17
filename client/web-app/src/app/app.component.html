@@ -1,4 +1,10 @@
-<a routerLink="/home" data-anchor="home">HOME</a>
-<a routerLink="/about" data-anchor="about">ABOUT</a>
-<a routerLink="/portfolio" data-anchor="portfolio">WORKS</a>
+<parallax
+    [parallax]="parallax"></parallax>
+<nav class="main-nav">
+    <ul>
+        <li><a routerLink="/home" data-anchor="home" routerLinkActive="active-link">HOME</a></li>
+        <li><a routerLink="/about" data-anchor="about" routerLinkActive="active-link">ABOUT</a></li>
+        <li><a routerLink="/portfolio" data-anchor="portfolio" routerLinkActive="active-link">WORKS</a></li>
+    </ul>
+</nav>
 <router-outlet></router-outlet>
