@@ -1,0 +1,32 @@
+.main-nav {
+    position: relative;
+    z-index: 9999;
+    
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        cursor: pointer;
+    }
+
+    a {
+        padding: 10px 15px;
+        font: normal 400 em(60) $bourbon;
+        text-decoration: none;
+        color: #fff;
+        transition: all .15s ease-out;
+
+        &:hover,
+        &.active-link {
+            background: linear-gradient(90deg, rgba(102, 187, 155, .45) 0%, rgba(94, 207, 205, .45) 31%, rgba(82, 183, 230, .45) 66%, rgba(154, 116, 239, .30) 100%);
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: all .15s ease-in;
+        }
+    }
+}
