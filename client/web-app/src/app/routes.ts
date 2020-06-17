@@ -9,4 +9,5 @@ export const AppRoutes: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'portfolio', component: PortfolioComponent },
     { path: 'portfolio/:id', component: PortfolioProjectComponent },
+    { path: '',   redirectTo: '/home', pathMatch: 'full' }
 ];
