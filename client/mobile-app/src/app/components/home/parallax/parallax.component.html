@@ -1,0 +1,14 @@
+<div
+    class="parallax-wrapper"
+    [style.height.px]="containerWidth"
+    [style.perspective]="perspective">
+    <div
+        class="parallax-background">
+        <!-- [style.background-image]="'url(' + parallax.background + ')'"> -->
+    </div>
+    <div
+        class="parallax-foreground"
+        *ngFor="let foreground of parallax.foreground"
+        [style.background-image]="'url(' + foreground.src + ')'"
+        [style.transform]="'translateZ(' + foreground.distance + 'px)' + ' ' + 'scale(' + scaleFactor(parallax.perspective, foreground.distance) + ')'"></div>
+</div>

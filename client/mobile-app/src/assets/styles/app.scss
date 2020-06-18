@@ -1,0 +1,13 @@
+@import './common/variables.scss';
+@import './common/mixins.scss';
+@import './common/fonts.scss';
+@import './common/ui.scss';
+@import './common/default.scss';
+@import './common/forms.scss';
+@import './common/animation.scss';
+
+@import './common/nav.scss';
+// components
+@import './components/background.component.scss';
+@import './components/airdata.component.scss';
+@import './components/info.component.scss';

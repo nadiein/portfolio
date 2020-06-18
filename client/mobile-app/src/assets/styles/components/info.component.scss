@@ -1,0 +1,56 @@
+.section-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    transform: perspective(1000px) rotateY(10deg);
+    background: $indigo-light;
+    transition: width .15s ease, transform .15s .74s ease;
+
+    &.hovered {
+        width: 100%;
+        transform: rotateY(0deg);
+        transition: transform .37s ease, width .37s .74s ease;
+
+        .ng-fa-icon {
+            opacity: 1;
+            transition: opacity .37s 1.14s ease;
+        }
+
+        // .si-holder-filter {
+        //     transition: width .37s ease;
+        // }
+    }
+
+    .ng-fa-icon {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        padding: 10px 15px;
+        font-size: 2em;
+        color: $grey;
+        opacity: 0;
+        cursor: pointer;
+        transition: opacity .05s ease;
+    }
+
+    .si-holder-filter {
+        max-width: fit-content;
+        height: 100px;
+        padding: 0 36px 0 5px;
+        margin: 40px 0 0 36px;
+        font-size: 5em;
+        color: $grey;
+        // transition: width .15s ease;
+    }
+
+}
+
+.si-content {
+    
+    &.inactive {
+        font-family: $preload-font;
+    }
+}
