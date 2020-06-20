@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Parallax, Foreground } from './components/home/parallax/parallax.component';
+import { Parallax, Foreground } from './common/parallax/parallax.component';
 import { GlobalEventDispatcherService } from './services/global.event.dispatcher.service';
 
 @Component({
