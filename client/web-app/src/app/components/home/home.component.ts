@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { GlobalEventDispatcherService } from 'src/app/services/global.event.dispatcher.service';
-import { Parallax, Foreground } from './parallax/parallax.component';
 
 @Component({
     selector: 'home',

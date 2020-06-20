@@ -11,9 +11,10 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PortfolioProjectComponent } from './components/portfolio/project/project.component';
-import { ParallaxComponent } from './components/home/parallax/parallax.component';
+import { ParallaxComponent } from './common/parallax/parallax.component';
 //Services here
 import { GlobalEventDispatcherService } from './services/global.event.dispatcher.service';
+import { RouterEventsService } from './services/router.service';
 
 @NgModule({
     declarations: [
@@ -30,7 +31,8 @@ import { GlobalEventDispatcherService } from './services/global.event.dispatcher
 
     ],
     providers: [
-        GlobalEventDispatcherService
+        GlobalEventDispatcherService,
+        RouterEventsService
     ],
     bootstrap: [AppComponent]
 })

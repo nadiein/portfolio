@@ -10,7 +10,7 @@ export class GlobalEventDispatcherService {
     private node:Subject<any> = new Subject();
 
     dispatch():Observable<any> {
-        // let mousedown = fromEvent(document, EventType.MOUSEDOWN.toLowerCase()).pipe(map(el => new DispatchedEvent(EventType.MOUSEDOWN, el) ))
+        let mousedown = fromEvent(document, EventType.MOUSEDOWN.toLowerCase()).pipe(map(el => new DispatchedEvent(EventType.MOUSEDOWN, el) ))
         // let mousup = fromEvent(document, EventType.MOUSEUP.toLowerCase()).pipe(map(el => new DispatchedEvent(EventType.MOUSEUP, el) ));
         // let mousemove = fromEvent(document, EventType.MOUSEMOVE.toLowerCase()).pipe(map(el => new DispatchedEvent(EventType.MOUSEMOVE, el) ));
         // let keydown = fromEvent(document, EventType.KEYDOWN.toLowerCase()).pipe(map(el => new DispatchedEvent(EventType.KEYDOWN, el) ));
@@ -22,9 +22,9 @@ export class GlobalEventDispatcherService {
         // let touchmove = fromEvent(document, EventType.TOUCHMOVE.toLowerCase()).pipe(map(el => new DispatchedEvent(EventType.TOUCHMOVE, el) ));
         let scroll = fromEvent(document, EventType.SCROLL.toLowerCase()).pipe(map(el => new DispatchedEvent(EventType.SCROLL, el) ));
         return merge(
-            scroll
+            scroll,
             // keyup,
-            // mousedown,
+            mousedown,
             // mousup,
             // mousemove,
             // keydown,
