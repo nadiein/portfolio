@@ -20,6 +20,35 @@ body {
     display: none;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    perspective: 1000;
+    z-index: 999;
+
+    .item {
+        position: relative;
+        animation: spinner linear backwards 1 1s;
+        transform-style: preserve-3d;
+
+        @include pseudo-el(before, inherit, inherit) {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            backface-visibility: hidden;
+            transform-style: preserve-3d;
+            background: #fff;
+            transform: rotateY(-180deg);
+        }
+
+        @include pseudo-el(after, inherit, inherit) {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            backface-visibility: hidden;
+            transform-style: preserve-3d;
+            background: #555;
+        }
+    }
 }
 
 .wrapper {
@@ -28,4 +57,13 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 1fr;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(-360deg);
+    }
 }

@@ -1,9 +1,9 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { GlobalEventDispatcherService, EventType } from './services/global.event.dispatcher.service';
-import { Parallax, Foreground } from './common/parallax/parallax.component';
 import { RouterEventsService } from './services/router.service';
 import { Subscription, of, interval } from 'rxjs';
 import { RouterEvent, NavigationStart, NavigationEnd } from '@angular/router';
+import { Parallax, Foreground } from './models/parallax/parallax.model';
 
 @Component({
     selector: 'app-root',
@@ -23,13 +23,13 @@ export class AppComponent implements OnInit, OnDestroy {
                 this.re.routerEvent().subscribe((e:any) => {
                     if (e instanceof NavigationStart){
                         console.log('Navigation Start');
-                        document.body.classList.add('js-preloading-active');
+                        // document.body.classList.add('js-preloading-active');
                     }
                     if (e instanceof NavigationEnd){
                         setTimeout(_ => {
                             console.log('Navigation End');
-                            document.body.classList.remove('js-preloading-active');
-                        }, 10000)
+                            // document.body.classList.remove('js-preloading-active');
+                        }, 2000)
                     }
                 } )
             }

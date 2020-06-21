@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PortfolioProjectComponent } from './components/portfolio/project/project.component';
 import { ParallaxComponent } from './common/parallax/parallax.component';
+import { PreloadingScreenComponent } from './common/preloading-screen/preloading.screen.component';
 //Services here
 import { GlobalEventDispatcherService } from './services/global.event.dispatcher.service';
 import { RouterEventsService } from './services/router.service';
@@ -23,7 +24,8 @@ import { RouterEventsService } from './services/router.service';
         AboutComponent,
         PortfolioComponent,
         PortfolioProjectComponent,
-        ParallaxComponent
+        ParallaxComponent,
+        PreloadingScreenComponent
     ],
     imports: [
         BrowserModule,

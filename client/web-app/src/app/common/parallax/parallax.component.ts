@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Parallax } from 'src/app/models/parallax/parallax.model';
 
 @Component({
     selector: 'parallax',
@@ -21,17 +22,4 @@ export class ParallaxComponent implements OnInit {
         return (perspective - distance) / perspective;
     }
 
-}
-
-export  class Parallax {
-    width:number;
-    perspective:number;
-    background:string;
-    foreground:Foreground[];
-}
-
-export class Foreground {
-    constructor(
-        private src:string,
-        private distance:number) { }
 }

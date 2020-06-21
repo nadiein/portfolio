@@ -1,0 +1,6 @@
+<div class="preloader-screen">
+    <div
+        *ngFor="let item of preloader.item; let i = index"
+        [style.animation-delay]="i / preloader.item.length + 's'"
+        class="item"></div>
+</div>
