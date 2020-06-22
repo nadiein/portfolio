@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { GlobalEventDispatcherService } from 'src/app/services/global.event.dispatcher.service';
 
 @Component({
-    selector: 'home',
-    templateUrl: './home.component.html',
-    styleUrls: ['./home.component.css']
+    selector: 'main-container',
+    templateUrl: './main.container.component.html',
+    styleUrls: ['./main.container.component.css']
 })
-export class HomeComponent implements OnInit {
+export class MainContainerComponent implements OnInit {
 
     constructor(private dispatcher:GlobalEventDispatcherService) { }
 

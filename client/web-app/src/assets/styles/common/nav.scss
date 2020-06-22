@@ -18,7 +18,8 @@
         font: normal 400 em(60) $bourbon;
         text-decoration: none;
         color: #fff;
-        transition: all .15s ease-out;
+        background: transparent;
+        transition: color 1s ease-out;
 
         &:hover,
         &.active-link {
@@ -26,7 +27,7 @@
             color: transparent;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            transition: all .37s ease-in;
+            transition: all 1s ease-in;
         }
     }
 }

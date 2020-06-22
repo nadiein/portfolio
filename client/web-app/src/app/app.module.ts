@@ -7,7 +7,7 @@ import { AppRoutes } from './routes';
 
 // Components here
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
+import { MainContainerComponent } from './components/home/main.container.component';
 import { AboutComponent } from './components/about/about.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PortfolioProjectComponent } from './components/portfolio/project/project.component';
@@ -20,7 +20,7 @@ import { RouterEventsService } from './services/router.service';
 @NgModule({
     declarations: [
         AppComponent,
-        HomeComponent,
+        MainContainerComponent,
         AboutComponent,
         PortfolioComponent,
         PortfolioProjectComponent,
